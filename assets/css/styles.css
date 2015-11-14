@@ -460,6 +460,10 @@ pre code {
   text-align: center;
   padding: 0;
 }
+.contact img {
+  max-height: 150px;
+  padding: 20px;
+}
 
 /* =======Blog ======== */
 .blog {
