@@ -401,10 +401,6 @@ pre code {
 .contact a:hover {
   color: #042a36;
 }
-.contact .item {
-	float: center;
-}
-
 .contact .info .sub-title {
   color: #074f66;
   margin-bottom: 30px;
