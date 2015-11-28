@@ -1,20 +1,20 @@
 .facebook {
 position: fixed;
 top: 183px;
-right: -462px;
+left: -462px;
 width: 490px;
 z-index: 1000;
 height: 150px;
 }
 
 .facebook img.facebook-przycisk {
-float: left;
+float: right;
 }
 
 .facebook .facebook-ramka {
 width: 462px;
 height: 510px;
-float: left;
+float: right;
 }
 
 .facebook .facebook-ramka a {
