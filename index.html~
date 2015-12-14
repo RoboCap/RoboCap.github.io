@@ -254,6 +254,8 @@
 					<li><i class="fa fa-check"></i> <b><a href="http://www.lejos.org/">LeJOS</a></b> - technologia umożliwiająca programowanie LEGO Mindstorms w Javie - popularnym języku obiektowym.</li>
 					<li><i class="fa fa-check"></i> <b><a href="http://www.arduino.cc/">Arduino</a></b> - platforma programistyczna oparta na programowalnym kontrolerze, na którym można zbudować układ.</li>
 					<li><i class="fa fa-check"></i> <b><a href="http://www.makeblock.cc/">MakeBlock</a></b> - zestaw konstruktorski dla duuużych dzieci na bazie Arduino. </li>
+					<li><i class="fa fa-check"></i> <b><a href="http://www.makeblock.cc/">MakeBlock</a></b> - zestaw konstruktorski dla duuużych dzieci na bazie Arduino. </li>
+					<li><i class="fa fa-check"></i> <b><a href="http://appinventor.mit.edu/explore/">MIT App Inventor</a></b> - narzędzie pozwalające na tworzenie w przeglądarce internetowej aplikacji na Android. </li>
 				</ul>
 				</p>
 			</div><!--//container-->
@@ -272,7 +274,7 @@
 					<a class="img-container"><img src="pictures/events/capgemini12.12.2015.jpeg" alt="miniatura" style="width:280px"></a>
 				</div>
 				<div class="col-md-9 col-sm-5 text-justify">
-					<h3>Wrocław - Warsztaty w Capgemini 12.12.2015</h3>
+					<h3>Wrocław – Warsztaty w Capgemini – 12.12.2015</h3>
 					<div class="row">
 						<div class="col-xs-12">
 							<p>
