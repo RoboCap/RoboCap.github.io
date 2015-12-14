@@ -202,6 +202,7 @@
 					<a id="links15" title=""><img height="120" src="pictures/team/jarczynska_natalia.jpg" alt="Natalia Jarczyńska" /></a>
 					<a id="links5" title=""><img height="120" src="pictures/team/sobkowiak_krzysiu.jpg" alt="Krzysiu Sobkowiak" /></a>
 					<a id="links6" title=""><img height="120" src="pictures/team/laszkiewicz_lukasz.jpg" alt="Łukasz Łaszkiewicz" /></a>
+					<a id="links17" title=""><img height="120" src="pictures/team/blach_pawel.jpg" alt="Paweł Błach" /></a>
 					<a id="links16" title=""><img height="120" src="pictures/team/krent_dagmara.jpg" alt="Dagmara Krent" /></a>
 					<a id="links1" title=""><img height="120" src="pictures/team/gadomski_lukasz.jpg" alt="Łukasz Gadomski" /></a>
 					<a id="links7" title=""><img height="120" src="pictures/team/lis_marek.jpg" alt="Marek Lis" /></a>
@@ -263,6 +264,28 @@
 	<section id="blog" class="about">
 		<div class="container">
 			<h2 class="title text-center">Wydarzenia</h2>
+
+			<!-- Capgemini -4 - 12.12.2015 -->
+			<div class="row">    
+				<br>
+				<div class="col-md-3 col-sm-3 text-center">
+					<a class="img-container"><img src="pictures/events/capgemini12.12.2015.jpeg" alt="miniatura" style="width:280px"></a>
+				</div>
+				<div class="col-md-9 col-sm-5 text-justify">
+					<h3>Wrocław - Warsztaty w Capgemini 12.12.2015</h3>
+					<div class="row">
+						<div class="col-xs-12">
+							<p>
+								Spanie w soboty do południa jest dla słabeuszy :) Zamiast tego w drugą sobotę grudnia przeprowadziliśmy warsztaty dla dzieci pracowników firmy Capgemini. Podczas kilku intensywnych godzin dużo się śmialiśmy, świetnie się bawiliśmy, a przede wszystkim...
+							</p>
+							<p class="lead"><a class="btn btn-default" href="subpages/events/capgemini12.12.2015.html">Czytaj dalej</a></p>
+						</div>
+						<div class="col-xs-3"></div>
+					</div>
+					<br>
+				</div>
+			</div>
+			<hr>
 
 			<!-- SP 84 - 1 -->
 			<div class="row">    
