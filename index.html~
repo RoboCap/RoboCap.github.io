@@ -267,6 +267,28 @@
 		<div class="container">
 			<h2 class="title text-center">Wydarzenia</h2>
 
+			<!-- SP 84 - 17.12.2015 -->
+			<div class="row">    
+				<br>
+				<div class="col-md-3 col-sm-3 text-center">
+					<a class="img-container"><img src="pictures/events/sp84_3.JPG" alt="miniatura" style="width:280px"></a>
+				</div>
+				<div class="col-md-9 col-sm-5 text-justify">
+					<h3>Wrocław – Warsztaty w Capgemini – 12.12.2015</h3>
+					<div class="row">
+						<div class="col-xs-12">
+							<p>
+								Spanie w soboty do południa jest dla słabeuszy :) Zamiast tego w drugą sobotę grudnia przeprowadziliśmy warsztaty dla dzieci pracowników firmy Capgemini. Podczas kilku intensywnych godzin dużo się śmialiśmy, świetnie się bawiliśmy, a przede wszystkim...
+							</p>
+							<p class="lead"><a class="btn btn-default" href="subpages/events/csp84_3.html">Czytaj dalej</a></p>
+						</div>
+						<div class="col-xs-3"></div>
+					</div>
+					<br>
+				</div>
+			</div>
+			<hr>
+
 			<!-- Capgemini -4 - 12.12.2015 -->
 			<div class="row">    
 				<br>
@@ -281,6 +303,26 @@
 								Spanie w soboty do południa jest dla słabeuszy :) Zamiast tego w drugą sobotę grudnia przeprowadziliśmy warsztaty dla dzieci pracowników firmy Capgemini. Podczas kilku intensywnych godzin dużo się śmialiśmy, świetnie się bawiliśmy, a przede wszystkim...
 							</p>
 							<p class="lead"><a class="btn btn-default" href="subpages/events/capgemini12.12.2015.html">Czytaj dalej</a></p>
+						</div>
+						<div class="col-xs-3"></div>
+					</div>
+					<br>
+				</div>
+			</div>
+			<hr>
+			<!-- 33rd Degree 4 Charity 30.11.2015 -->
+			<div class="row">    
+				<br>
+				<div class="col-md-3 col-sm-3 text-center">
+					<a class="img-container"><img src="pictures/events/robo_33degree.jpg" alt="miniatura" style="width:280px"></a>
+				</div>
+				<div class="col-md-9 col-sm-5 text-justify">
+					<h3>Wrocław – Prezentacja na konferencji 33rd Degree 4 Charity -30.11.2015</h3>
+					<div class="row">
+						<div class="col-xs-12">
+							<p>30 listopada tego roku mieliśmy zaszczyt wziąć udział w 33rd Degree 4 charity. Była to konferencja z programowania dla bardzo słusznej sprawy - wspierała bowiem akcje charytatywne: Szlachetną Paczkę, Fundację Mam Marzenie, Rak'n'roll, Devoxx4kid. Ponieważ idealnie wpisujemy się zarówno w ideę programowania, jak i pomagania nie mogło nas tam zabraknąć! Mało tego, mieliśmy okazję otwierać całe wydarzenie...
+							</p>
+							<p class="lead"><a class="btn btn-default" href="subpages/events/33rdDegree.html">Czytaj dalej</a></p>
 						</div>
 						<div class="col-xs-3"></div>
 					</div>
