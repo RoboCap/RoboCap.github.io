@@ -6,7 +6,8 @@ $(document).ready(function() {
 				responsive: 900,
 				anchors: ['stronaGlowna', 'oNas', 'zespol', 'coRobimy', 'wydarzenia', 'partnerzy','kontakt'],
 				menu: '#menu',
-				scrollOverflow: true
+				autoScrolling: false,
+        fitToSection: false,
 
 	});
 
@@ -18,16 +19,6 @@ $(document).ready(function() {
 	});
 	$('div.facebook').mouseleave(function(){
 		$(this).stop(true, false).animate({"left": "-462px"}, 400);
-	});
-
-	var linksdata = ['Piotr Smyk', 'Łukasz Gadomski', 'Marcin Motowidło', 'Dawid Rolla', 'Tomek Łaszkiewicz', 'Krzysiu Sobkowiak', 
-		'Łukasz Łaszkiewicz', 'Marek Lis', 'Zuza Pacholczyk', 'Piotr Kałużny', 'Jacek Cząstkiewicz', 'Ty?', 'Marek Puchalski', 
-		'Kasia Dębowa', 'Sylwia Robak', 'Natalia Jarczyńska', 'Dagmara Krent', 'Paweł Błach', 'Wojciech Sobasik'];
-	$("[id*='links']").mouseenter(function(){
-		$(this).attr("title", linksdata[$(this).attr("id").substr(5)]);
-	});
-	$("[id*='links']").mouseleave(function(){
-		$(this).attr("title", "");
 	});
 });
 	
