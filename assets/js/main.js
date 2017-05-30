@@ -34,8 +34,13 @@ $(document).ready(function () {
             tError: '<a href="%url%">The content</a> could not be loaded.' //  Error message, can contain %curr% and %total% tags if gallery is enabled
         },
         callbacks : {
-            // reinitialize FP
-            afterClose: function() { location.reload(); }
+            beforeOpen: function() {
+                $('#header').removeClass('navbar-fixed-top');
+            },
+            afterClose: function() {
+                document.documentElement.style.overflow="visible";
+                $('#header').addClass('navbar-fixed-top');
+            }
         }
     });
 });
