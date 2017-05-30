@@ -8,7 +8,7 @@ $(document).ready(function () {
             anchors: ['stronaGlowna', 'oNas', 'zespol', 'coRobimy', 'wydarzenia', 'partnerzy', 'kontakt'],
             menu: '#menu',
             autoScrolling: false,
-            fitToSection: true,
+            fitToSection: false,
         });
     }
 
@@ -35,7 +35,7 @@ $(document).ready(function () {
         },
         callbacks : {
             // reinitialize FP
-            afterClose: fpInitialize
+            afterClose: function() { location.reload(); }
         }
     });
 });
