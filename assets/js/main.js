@@ -1,14 +1,18 @@
 $(document).ready(function () {
 
-    $('#fullpage').fullpage({
+    var fpInitialize = function() {
+        $('#fullpage').fullpage({
 
-        sectionsColor: ['#17baef', '#f5f5f5', '#f5f5f5', '#17baef', '#f5f5f5', '#fffff', '#17baef'],
-        responsive: 900,
-        anchors: ['stronaGlowna', 'oNas', 'zespol', 'coRobimy', 'wydarzenia', 'partnerzy', 'kontakt'],
-        menu: '#menu',
-        scrollOverflow: true,
-        fitToSection: false,
-    });
+            sectionsColor: ['#17baef', '#f5f5f5', '#f5f5f5', '#17baef', '#f5f5f5', '#fffff', '#17baef'],
+            responsive: 900,
+            anchors: ['stronaGlowna', 'oNas', 'zespol', 'coRobimy', 'wydarzenia', 'partnerzy', 'kontakt'],
+            menu: '#menu',
+            autoScrolling: false,
+            fitToSection: true,
+        });
+    }
+
+    fpInitialize();
 
     /* ======= Fixed header when scrolled ======= */
     $('#header').addClass('navbar-fixed-top');
@@ -28,6 +32,10 @@ $(document).ready(function () {
             settings: null,
             cursor: 'mfp-ajax-cur', // CSS class that will be added to body during the loading (adds "progress" cursor)
             tError: '<a href="%url%">The content</a> could not be loaded.' //  Error message, can contain %curr% and %total% tags if gallery is enabled
+        },
+        callbacks : {
+            // reinitialize FP
+            afterClose: fpInitialize
         }
     });
 });
