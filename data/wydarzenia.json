@@ -1,0 +1,191 @@
+[
+  {
+    "datetime": {
+      "full": "2017-xx-yy 1100",
+      "day": "??",
+      "month": "???",
+      "year": "2017",
+      "time": "11:00"
+    },
+    "image": {
+      "src": "logoRobocap.png",
+      "alt": "Where to next?"
+    },
+    "title": "Szukamy następnego warsztatu",
+    "desc": {
+      "link": "ponieważ lubimy wyzwania :)",
+      "text": ""
+    },
+    "graduation": "^_^",
+    "tutors": "^_^",
+    "technology": "^_^"
+  },
+  {
+    "datetime": {
+      "full": "2017-05-29 0900",
+      "day": "29",
+      "month": "Maj",
+      "year": "2017",
+      "time": "09:00"
+    },
+    "image": {
+      "src": "pictures/events/sp12-small-20170529.jpg",
+      "alt": "SP12 Wrocław"
+    },
+    "title": "Szkoła Podstawowa nr 12, Wrocław",
+    "desc": {
+      "link": "zabawa dla wszystkich w zerówce :)",
+      "text": "Mielimy przyjemność prowadzić zajęcia dla niezwykle żywiołowych \"0\"-kowiczów ze SP nr 12 we Wrocławiu. W ruch poszedł cały nasz robotowy arsenał. Salę numer \"5\" wypełniły łaziki, szczotkowce, LEGO i zdalnie sterowanamega koparka 🤖. Ciekawym pytaniom młodych adeptów elektroniki nie było końca. Poznaliśmy części robota. Uczyliśmy się odróżniać roboty \"złe\" od \"dobrych\". Dowiedzieliśmy się o ważnej roli programisty. Młodym inżynierom życzymy dalszego rozwoju nowo odkrytych pasji! Więcej zdjęć na naszym FB."
+    },
+    "graduation": "16",
+    "tutors": "5",
+    "technology": "szczotkowce, mBot, sphero, Mindstorm, kopara"
+  },
+  {
+    "datetime": {
+      "full": "2017-03-04 1100",
+      "day": "04",
+      "month": "Mar",
+      "year": "2017",
+      "time": "11:00"
+    },
+    "image": {
+      "src": "pictures/events/wcow20170304.JPG",
+      "alt": "Wrocławskie Centrum Opieki i Wychowania"
+    },
+    "title": "Wrocławskie Centrum Opieki i Wychowania",
+    "desc": {
+      "link": "Szczegółowy opis wkrótce",
+      "text": ""
+    },
+    "graduation": "10",
+    "tutors": "4",
+    "technology": "mBot"
+  },
+  {
+    "datetime": {
+      "full": "2017-02-22 1100",
+      "day": "22",
+      "month": "Lut",
+      "year": "2017",
+      "time": "11:00"
+    },
+    "image": {
+      "src": "pictures/events/iskierka20170222.JPG",
+      "alt": "Fundacja Iskierka we Wrocławiu"
+    },
+    "title": "Fundacja Iskierka we Wrocławiu",
+    "desc": {
+      "link": "Szczegółowy opis wkrótce",
+      "text": ""
+    },
+    "graduation": "13",
+    "tutors": "3",
+    "technology": "mBot, Mindstorm"
+  },
+  {
+    "datetime": {
+      "full": "2017-02-04 1100",
+      "day": "04",
+      "month": "Lut",
+      "year": "2017",
+      "time": "11:00"
+    },
+    "image": {
+      "src": "pictures/events/mbp20170204.JPG",
+      "alt": "Miejska Bibiioteka Publiczna nr 23 we Wrocławiu"
+    },
+    "title": "Miejska Bibiioteka Publiczna nr 23 we Wrocławiu",
+    "desc": {
+      "link": "Szczegółowy opis wkrótce",
+      "text": ""
+    },
+    "graduation": "9",
+    "tutors": "4",
+    "technology": "szczotkowce, ciastolina"
+  },
+  {
+    "datetime": {
+      "full": "2016-12-04 1100",
+      "day": "04",
+      "month": "Gru",
+      "year": "2016",
+      "time": "11:00"
+    },
+    "image": {
+      "src": "pictures/events/amw20161204.JPG",
+      "alt": "AMW"
+    },
+    "title": "Akademia Młodych Wynalazców w Częstochowie",
+    "desc": {
+      "link": "Szczegółowy opis wkrótce",
+      "text": ""
+    },
+    "graduation": "27",
+    "tutors": "7",
+    "technology": "mBot, sphero, Mindstorm"
+  },
+  {
+    "datetime": {
+      "full": "2016-09-24 1100",
+      "day": "24",
+      "month": "Wrz",
+      "year": "2016",
+      "time": "11:00"
+    },
+    "image": {
+      "src": "pictures/events/mbp23-2016.jpg",
+      "alt": "Miejska Bibiioteka Publiczna nr 23 we Wrocławiu"
+    },
+    "title": "Miejska Bibiioteka Publiczna nr 23 we Wrocławiu",
+    "desc": {
+      "link": "Szczegółowy opis",
+      "text": "Dzięki zaproszenieu MBP 23 mieliśmy przywilej porozmawiać z młodymi umysłami o tym czym jest prąd, dlaczego trzeba na niego uważać, ale także co można dzięki niemu zrobić. Bogatsi w tę wiedzę mali konstruktorzy stworzyli roboty-szczotkowce. Każdy był unikalny, każdy sprawił strasznie dużo radości i mamy nadzieję, że był inspiracją dla rodziców jak niewiele trzeba (także finansowo) by się bawić w robotykę :) Dziękujemy Bibliotece i do zobaczenia. Więcej zdjęć na naszym FB."
+    },
+    "graduation": "10",
+    "tutors": "4",
+    "technology": "szczotkowce, ciastolina"
+  },
+  {
+    "datetime": {
+      "full": "2016-09-10 1100",
+      "day": "10",
+      "month": "Wrz",
+      "year": "2016",
+      "time": "11:00"
+    },
+    "image": {
+      "src": "pictures/events/devoxx4kids2016.jpg",
+      "alt": "RoboCap Devoxx4Kids, Wrocław"
+    },
+    "title": "RoboCap Devoxx4Kids, Wrocław",
+    "desc": {
+      "link": "Szczegółowy opis",
+      "text": "We wrześniu mieliśmy okazję poprawdzić zajęcia w ramach pierwszej edycji konferencji programistycznej dla dzieci we Wrocławiu. Nasi trenerzy i mBoty staneli w szranki z dużo lepszym od siebie zawodnikiem, czyli dziećmi, które były otwarte na wiedzę, nie bały się zadawać trudnych pytań, a przy tym miały mnóstwo pomysłów jak rozwiązać wymyślone przez nas zadania :) Mamy wrażenie, że obie strony świetne się bawiły i kto wie, może za rok znów dadzą nam coś poprowadzić ;)"
+    },
+    "graduation": "16",
+    "tutors": "4",
+    "technology": "mBot"
+  },
+  {
+    "datetime": {
+      "full": "2016-08-13 1100",
+      "day": "13",
+      "month": "Sie",
+      "year": "2016",
+      "time": "11:00"
+    },
+    "image": {
+      "src": "pictures/others/javaScriptPWN-mini.jpg",
+      "alt": "Recenzja książki „JavaScript dla dzieci” wydawnictwa PWN"
+    },
+    "title": "Recenzja książki „JavaScript dla dzieci” wydawnictwa PWN",
+    "desc": {
+      "link": "Przeczytaj recenzję",
+      "text": "<p>Do książki „Java Script dla dzieci” Nick’a Morgan’a podeszłam z wielką ciekawością, gdyż była to moja pierwsza książka związana z programowaniem nie napisana dla osób ściśle ze środowiska IT. Jako, że ja do takich nie należe obawiałam się trochę czy pod przykrywką przyjaznej okładki i przesłania ksiązki specjalnie „dla dzieci” znów nie pojawią się zawiłości, których jak dotąd nie umiałam sobie wytłumaczyć przy pomocy innnych źródeł.</p><p>Przeznaczenie książki jest dla dzieci od lat 10, co zrozumiałe, gdyż używane są tu pojęcia w języku angielskim (przy tworzeniu komend), jak i spora dawka wiedzy z lekcji matematyki (dodawanie, odejmowanie,  mnożenie, itp) z czym nie każde dziecko daje sobie rade. No cóż, ale od czegoś ma Nas - doroslych, którzy na pewno też chętnie poznamy troche tej tajemnej wiedzy ukrytej pod tyloma programami czy stronami internetowymi używanymi na codzień. </p><p>Każda strona zachwyca podziałem, kolorami, obrazkami i co najważniejsze krótkimi historiami z dnia codziennego i nie tylko, które w magiczny sposób tłumaczą działanie każdej nowej fukcjonalności. Pomimo że książka przeznaczona jest dla dzieci niczego tutaj nie pominięto. Każda przedstawiona informacja jest bardzo ważna i uzupełnia kolejną, rozpoczynając od bardzo podstawowych kwesti jak typy danych i zmienne  do znacznie bardziej zaawansowanych takich jak DOM(obiektowy model dokumentu), czy jQuery, aż po pisanie własnych gier, więc nie można sobie pozwolić na przeskoczenie kilku kartek do przodu. </p><p> Jeżeli interesujesz sie komputerami, programowaniem, a może po prostu jesteś ciekawy, co więcej kryje się w tej książce nie czekaj dłużej i zmarnuj z nią trochę czasu, a nie będziesz żałował. I pamiętaj, nie czytaj jak to się robi, ale sam zrób co autor pokazuje w książce. Duma jaka Cię przepełni, gdy coś wyjdzie, jest bezcenna. Coś o tym wiem :)</p><p align=\"right\">Ewa Łysakowska</p><br><p><i>Dziękujemy wydawnictwu PWN za udostępnienie książki i możliwość zapoznania się z jej treścią.</i></p>"
+    },
+    "graduation": "-",
+    "tutors": "1",
+    "technology": "JavaScript"
+  }
+]
