@@ -176,7 +176,7 @@
       "time": "11:00"
     },
     "image": {
-      "src": "pictures/others/javaScriptPWN-mini.jpg",
+      "src": "pictures/others/javaScriptPWN.jpg",
       "alt": "Recenzja książki „JavaScript dla dzieci” wydawnictwa PWN"
     },
     "title": "Recenzja książki „JavaScript dla dzieci” wydawnictwa PWN",
@@ -187,5 +187,467 @@
     "graduation": "-",
     "tutors": "1",
     "technology": "JavaScript"
+  },
+  {
+    "datetime": {
+      "full": "2016-06-09 1100",
+      "day": "09",
+      "month": "Cze",
+      "year": "2016",
+      "time": "11:00"
+    },
+    "image": {
+      "src": "pictures/events/sp84_9_1.JPG",
+      "alt": "Wrocław - Szkoła Podstawowa nr 84"
+    },
+    "title": "Wrocław - Szkoła Podstawowa nr 84",
+    "desc": {
+      "link": "Szczegółowy opis",
+      "text": "<p>Dopiero co zdawaliśmy relację z pierwszych zajęć w szkole, a już trzeba pisać o ostatnich... w tym roku szkolnym :) Nie wiadomo kiedy minęło te prawie dziesięć miesięcy od prezentacji i dziewięć spotkań z grupką uczniów... Dziewięć zajęć pełnych wiedzy i dobrej zabawy :) Dziękujemy!</p><p>Przejdźmy jednak do relacji z czerwcowej wizyty w szkole. Tym razem wyjątkowo przyszliśmy prawie z pustymi rękami - mBot'y czekały na nas w sali ;) Zajęcia miały też trochę inną formę - programowaniem robotów zajęliśmy się tylko przez chwilę, pod koniec spotkania. Przeszliśmy za to przez pierwszy etap zabawy z mBot'em - złożenie go. Pozwoliło to na dokładne poznanie jego budowy, stanowiło też momentami nie lada wyzwanie mimo instrukcji - ech te kilka rodzajów śrubek :) Dzieciaki składały mBot'y w trzech grupach i pod koniec pojawił się też mały element rywalizacji, co dodatkowo urozmaiciło zajęcia.</p><p>Zajęcia zakończyliśmy krótkim podziękowaniem z dyplomami dla najwytrwalszych dzieciaków. Przed nami wakacje - chwila przerwy, ale z niecierpliwością czekamy na kolejny rok szkolny. Złożone mBot'y są gotowe na kolejne wyzwania! :)</p>"
+    },
+    "graduation": "11",
+    "tutors": "3",
+    "technology": "mBot"
+  },
+  {
+    "datetime": {
+      "full": "2016-06-04 1100",
+      "day": "04",
+      "month": "Cze",
+      "year": "2016",
+      "time": "11:00"
+    },
+    "image": {
+      "src": "pictures/events/krzywy_komin_1.JPG",
+      "alt": "Wrocław - Warsztaty otwarte w Krzywym Kominie"
+    },
+    "title": "Wrocław - Warsztaty otwarte w Krzywym Kominie",
+    "desc": {
+      "link": "Szczegółowy opis",
+      "text": "<p>Programowanie jest dla każdego! Tak, to zdecydowanie stwierdzenie, z którym się zgadzamy. Zgodnie z tym postanowiliśmy wyjść ze swoimi zajęciami do dzieci i zorganizowaliśmy pierwsze otwarte warsztaty robotyki i programowania :) Udało się to dzięki <a target=\"_blank\" href=\"http://www.krzywykomin.pl/\">CRZ Krzywy Komin</a>, które przyjęło nas z otwartymi ramionami i udostępniło swoją kolorową pracownię.</p><p>Warsztaty odbyły się 4 czerwca. Przygotowaliśmy zajęcia dla dwóch grup dzieci. Młodsza grupa zaczęła zajęcia od nauki o prądzie przy użyciu ciastoliny, baterii i kolorowych diod. Zdecydowanie wzbudziło to duże zainteresowanie, gdyż wykorzystaliśmy materiały dobrze znane dzieciakom i mogły wszystko przetestować samodzielnie. Następnie zasiedliśmy przed komputerami, by pobawić się programowaniem. Przy użyciu języka Scratch dzieci poznały zasady tworzenia programów i podjęły pierwsze próby zaprogramowania duszków. Dla młodych adeptów na pewno nie było to proste zadanie, ale działali z dużym zaangażowaniem, co bardzo nas ucieszyło.</p><p>Grupa starsza zajmowała się robotami mBot. Najpierw uczestnicy poznali ich budowę, czujniki i programowali każdy z osobna, by sprawdzić, jak można na nie wpływać. Później mogli połączyć wszystkie uzyskane informacje i zaprogramować własny projekt wykorzystujący zdobytą wiedzę. Koniec zajęć został przyjęty ze smutkiem, ale prezentacja swojego rozwiązania przed innymi pozwoliła na odczucie ogromu satysfakcji. </p><p>Baardzo cieszymy się, że mogliśmy zrobić coś nowego. Takie zajęcia to dla nas duże wyzwanie, ale jednocześnie świetna zabawa. Kto wie, może niedługo powtórzymy takie warsztaty :) </p>"
+    },
+    "graduation": "8",
+    "tutors": "6",
+    "technology": "scratch, ciastolina"
+  },
+  {
+    "datetime": {
+      "full": "2016-05-19 1100",
+      "day": "19",
+      "month": "Maj",
+      "year": "2016",
+      "time": "11:00"
+    },
+    "image": {
+      "src": "pictures/events/sp84_8_1.JPG",
+      "alt": "Wrocław - Szkoła Podstawowa nr 84"
+    },
+    "title": "Wrocław - Szkoła Podstawowa nr 84",
+    "desc": {
+      "link": "Szczegółowy opis",
+      "text": "<p>Majowe zajęcia w szkole poświęciliśmy na pokazanie dzieciakom dwóch nowych robotów - Sphero i Lego Mindstorms, znanych już z wrześniowej prezentacji. Sphero jak zwykle zrobiło furorę :) i frajdę jaką wywołać może tylko latająca w różnych kierunkach i zmieniająca kolory kulka. Tym razem jednak dzieciaki wymyślały i tworzyły swoją aplikację na tablecie.</p><p>W przerwie od Sphero można było zająć się poważniejszym tematem - robotami Mindstorms, które posiadały dobrze nam już znany czujnik - odległości oraz dające nowe możliwości czujniki koloru i dotyku. Podobnie jak w przypadku mBot'a programy dla robotów Lego można tworzyć za pomocą bloczków, jednak dokładne ich poznanie i zrozumienie zajęłoby nam kilka zajęć. Dlatego w ciągu godziny stworzyliśmy prosty skrypt. Robot jechał do przodu, gdy nie miał przed sobą przeszkody w odległości mniejszej niż 20 cm, zmieniał kolor na wyświetlaczu po naciśnięciu czujnika dotyku, a gdy czujnik koloru rejestrował czarny kolor, to słyszeliśmy dźwięk.</p><p>Zajęcia jak zwykle sprawiły nam sporo frajdy, z niecierpliwością czekamy na czerwcowe :)</p>"
+    },
+    "graduation": "9",
+    "tutors": "3",
+    "technology": "sphero, Mindstorm"
+  },
+  {
+    "datetime": {
+      "full": "2016-05-01 1100",
+      "day": "01",
+      "month": "Maj",
+      "year": "2016",
+      "time": "11:00"
+    },
+    "image": {
+      "src": "pictures/others/python.png",
+      "alt": "Recenzja książki „Python dla dzieci” wydawnictwa PWN"
+    },
+    "title": "Recenzja książki „Python dla dzieci” wydawnictwa PWN",
+    "desc": {
+      "link": "Przeczytaj recenzję",
+      "text": "<p>Książka „Python dla dzieci” jest pozycją, która powinna znaleźć się na półce w każdym domu, w którym poważnie podchodzi się do tematu uczenia dzieci programowania. Autor stara się w swojej książce w łatwy i przyjemny sposób wprowadzić czytelnika w świat programowania. Książka zaczyna się krótkim wstępem oraz instrukcją, jak zainstalować i skonfigurować środowisko programistyczne w systemie Windows, Mac OS X oraz Linux.</p><p>Autor podzielił swoją książkę na logiczne rozdziały, z których każdy bazuje na wiedzy zdobytej podczas przerabiania poprzednich rozdziałów. Czytelnik wyrusza w podróż przez szereg podstawowych konstrukcji języka Python. Poznaje takie pojęcia jak zmienne, klasy, obiekty, tablice, mapy czy instrukcje warunkowe. Następnie autor wprowadza czytelnika w tajniki oprogramowania grafiki oraz interakcji z użytkownikiem, tak, aby młody adept programowania w miarę szybko poczuł tę moc, dzięki której może poruszać obiektami na ekranie.</p><p>Po zapoznaniu się z podstawowymi tajnikami programowania przychodzi czas na poważniejsze tematy, dzięki którym nasz młody programista ma okazję pogłębić umiejętności zdobyte na początku swojej podróży w świat programowania. Nie ma tu nudnych programów typu „Hello World!”. Autor wprowadza natomiast czytelnika w tajniki tworzenia gier. Nasze dziecko uczy się w jaki sposób budować proste gry, którymi może później zaimponować swoim rówieśnikom. </p><p>Jedną ze słabości wielu książek uczących programowania jest to, że czytelnik po ich przeczytaniu musi sam, we własnym zakresie poszukiwać zasobów do dalszego doskonalenia wiedzy zdobytej podczas czytania danej książki. „Python dla dzieci” zawiera dodatek dostarczający czytelnikowi listę zasobów oraz informacji, dzięki którym dalsze pogłębianie zdobytych umiejętności staje się o wiele łatwiejsze.</p><p> Książka adresowana jest głównie do dzieci starszych klas szkoły podstawowej oraz szkół ponadpodstawowych. Mimo iż napisana jest bardzo prostym językiem, wymaga od czytelnika czasami zrozumienia podstawowych pojęć matematycznych, takich jak dodawanie, mnożenie, kąty, długości, szerokości. Jednakże uważam, że najlepszym pomysłem jest to, aby dziecko razem z rodzicem usiadło do lektury tej książki - zgodnie z napisem na okładce książki - dzięki czemu, dorosły będzie mógł wyjaśnić dziecku trudniejsze pojęcia. Ale nie tylko. Uważam, że książka jest równie dobrym źródłem wiedzy dla osób dorosłych pragnących nauczyć się programować.</p><p>Jeśli chcesz zachęcić swoje dziecko do programowania, kup tę książkę i jesteś gotowa/gotowy do pracy! Moim zdaniem wspólna lektura książki „Python dla dzieci” jest wspaniałym sposobem spędzania czasu ze swoim dzieckiem i rozwijania wspólnych pasji.</p><p align=\"right\">Krzysztof Sobkowiak</p><br><p><i>Dziękujemy wydawnictwu PWN za udostępnienie książki i możliwość zapoznania się z jej treścią.</i></p>"
+    },
+    "graduation": "-",
+    "tutors": "1",
+    "technology": "Python"
+  },
+  {
+    "datetime": {
+      "full": "2016-04-21 1100",
+      "day": "21",
+      "month": "Kwi",
+      "year": "2016",
+      "time": "11:00"
+    },
+    "image": {
+      "src": "pictures/events/sp84_7_1.JPG",
+      "alt": "Wrocław - Szkoła Podstawowa nr 84"
+    },
+    "title": "Wrocław - Szkoła Podstawowa nr 84",
+    "desc": {
+      "link": "Szczegółowy opis",
+      "text": "<p>Za nami ostatnie zmagania z linefollower'ami. Należało jakoś podsumować pracę z kilku ostatnich spotkań, dlatego urządzliśmy zawody mBotów. Dzieciaki podzieliły się na dwa zespoły. Większa część zajęć została poświęcona na ulepszenie dotychczas opracowanego programu, tak aby robot jak najlepiej radził sobie na trzech przygotowanych trasach.</p><p>Schemat był prosty - mała poprawka w algorytmie, wgranie programu, bieg do planszy, trzy, dwa, jeden, start!... oo, mBot osiągnął nieco lepszy czas, ale można jeszcze coś poprawić. A jak to wygląda na drugiej trasie? Oczywiście nie mogło zabraknąć licytacji pomysłów, a także zmian buziek i kolorów pojawiających się na diodach LED :)</p><p>Na końcu zajęć każda grupa miała trzy przejazdy na każdej z tras. Mimo drobnych problemów przy niektórych zakrętach ostatecznie wszystkie trasy zostały pokonane, a różnice między mBot'ami okazały się być minimalne - kilkusekundowe. Zwyciężyła grupa, której robot wygrał na dwóch planszach. Gratulacje!</p><p>Niedługo czekają nas zajęcia ze Sphero i Lego Mindstorms. Na pewno znowu będziemy się świetnie bawić :)</p>"
+    },
+    "graduation": "8",
+    "tutors": "3",
+    "technology": "mBot"
+  },
+  {
+    "datetime": {
+      "full": "2016-04-01 1100",
+      "day": "01",
+      "month": "Kwi",
+      "year": "2016",
+      "time": "11:00"
+    },
+    "image": {
+      "src": "pictures/others/ruby.png",
+      "alt": "Recenzja książki „Magia Ruby” wydawnictwa PWN"
+    },
+    "title": "Recenzja książki „Magia Ruby” wydawnictwa PWN",
+    "desc": {
+      "link": "Przeczytaj recenzję",
+      "text": "<p>Sięgając do książki “Magia Ruby” spodziewałam się, że jest to zbiór opowiadań dla dzieci, gdzie przy okazji tłumaczy się programowanie w języku Ruby. Po przeczytaniu książki stwierdzam, że jest to dobry podręcznik programowania dla dzieci z ciekawymi historiami, które prowadzą nas od jednego do kolejnych punktów historii. Dodatkowo, tekst z okładki: “Programowanie na wesoło” jest w 100% prawdziwy! Aż sama żałuję, że kiedy ja byłam dziesięciolatką, nie było takich książek (a książek wtedy czytałam bardzo dużo). Nie będę tutaj streszczać książki, bo to się mija z celem. Za to napiszę Wam, dlaczego warto do niej sięgnąć.</p><p>Na tyle okładki jest napis “Dla dzieci od lat 10 (i ich rodziców)”. Myślę, że to dobry pomysł, żeby dziecko razem z rodzicem usiadło do lektury tej książki. Dzięki temu dorosły będzie mógł pomóc w nie do końca zrozumiałych kwestiach (jeśli takie się znajdą) albo problemach ze sprzętem i przy okazji sam się czegoś nauczy.</p><p>W każdym z 14 rozdziałów poznajemy właściwości języka Ruby i uczymy się czegoś nowego. Wszystko poparte jest przykładami i historiami. Ważne, że nauka z „Magią Ruby” nie polega tylko na siedzeniu i czytaniu książki. Należy usiąść również przed ekranem komputera i samemu wpisywać polecenia w IRB (interaktywnej konsoli Ruby) oraz pisać programy. W wielu miejscach książki pojawiają się odnośniki do konkretnego rozdziału, które przypominają, gdzie szukać informacji np. o symbolach i nie musimy już sami główkować i wertować spisu treści.</p><p> „Magia Ruby” na pewno przyciągnie każdego małego adepta programowania. Nie jest typowym szkolnym podręcznikiem. Oprócz tego, że została napisana w bardzo przystępny sposób, to zawiera wiele ładnych ilustracji. Element, który jest wielką zaletą tej książki to zawarty w niej humor. Nie sposób nie uśmiechnąć się, czytając np. o spotkaniu z rycerką w kremowej zbroi. Ponadto większość angielskich nazw używanych w języku Ruby zostało całkiem zgrabnie przetłumaczonych.</p><p>Z pewnością poleciłabym każdemu tę książkę!</p><p align=\"right\">Sylwia Robak</p><br><p><i>Dziękujemy wydawnictwu PWN za udostępnienie książki i możliwość zapoznania się z jej treścią.</i></p>"
+    },
+    "graduation": "-",
+    "tutors": "1",
+    "technology": "Ruby"
+  },
+  {
+    "datetime": {
+      "full": "2016-03-10 1100",
+      "day": "10",
+      "month": "Mar",
+      "year": "2016",
+      "time": "11:00"
+    },
+    "image": {
+      "src": "pictures/events/sp84_6.jpg",
+      "alt": "Wrocław - Szkoła Podstawowa nr 84"
+    },
+    "title": "Wrocław - Szkoła Podstawowa nr 84",
+    "desc": {
+      "link": "Szczegółowy opis",
+      "text": "<p>Dzieciaki ze Szkoły Podstawowej nr 84 nie przestają nas zaskakiwać :) Po raz kolejny zaprezentowały swoje zdolności podczas zajęć z robotami mBot, które mają przed nimi coraz mniej tajemnic.</p><p>Na początku zajęć przygotowaliśmy tor, by sprawdzić, czy nasze roboty poradzą sobie ze śledzeniem linii na trudniejszej trasie oraz powtórzyliśmy to, czego nauczyliśmy się poprzednio. Pod koniec zajęć niektóre roboty były już w stanie nie tylko śledzić czarną linię, ale także omijać napotkane przeszkody.</p><p>Zmagania z robotami będziemy kontynuować także w przyszłym miesiącu, z czego ogromnie się cieszymy.</p>"
+    },
+    "graduation": "7",
+    "tutors": "2",
+    "technology": "mBot"
+  },
+  {
+    "datetime": {
+      "full": "2016-02-29 1430",
+      "day": "29",
+      "month": "Lut",
+      "year": "2016",
+      "time": "14:30"
+    },
+    "image": {
+      "src": "pictures/events/sp84_5.JPG",
+      "alt": "Wrocław - Szkoła Podstawowa nr 84"
+    },
+    "title": "Wrocław - Szkoła Podstawowa nr 84",
+    "desc": {
+      "link": "Szczegółowy opis",
+      "text": "<p>Za nami kolejne zajęcia w szkole. Dzieciaki poznały nowe możliwości mBota - programowały go tak, aby jechał po linii. Pracowaliśmy w grupach 2 oraz 3 osobowych, dzięki czemu każdy uczeń miał szansę na stworzenie swojego fragmentu programu. Oczywiście wymiany pomysłów na poprawienie skuteczności algorytmu odbywały się również między grupami.</p><p>Kilka pierwszych minut zajęć poświęcone zostało na krótki wstęp z objaśnieniem działania czujnika linii. Znacznym ułatwieniem była możliwość wyświetlania wartości przymowanych przez czujnik w zależności od sposobu umiejscowienia robota w sąsiedztwie czarnej linii. Następnie pokazaliśmy robota jadącego po prostej i przystąpiliśmy do ulepszania programu tak, aby nasz robot poradził sobie również z zakrętami. Okazało się jednak, że uczniowie mają przed sobą nie lada wyzwanie. Rozszerzenie algorytmu o jazdę do tyłu i skręcanie nie pozwoliło pokonać trasy (ósemki) będącej częścią zestawu mBota. Przy małych prędkościach robot nie chciał jechać, przy dużych wypadał z trasy...</p><p>W pewnym momencie stwierdziliśmy, że można spróbować wykonać własną trasę, na kartce bez śladów zgięcia (właśnie one sprawiały robotowi najwięcej problemów). Plakatówki, markery w dłonie i uczniowie zabrali się do dzieła :) Sporządzona naprędce trasa wysychała na kaloryferze ;);) a my dalej ulepszaliśmy algorytm. I... udało się! Należało ustawić różne prędkości na silnikach przy skręcaniu - wewnętrzny poruszał się dwa razy wolniej i zakręty nie stanowiły już problemu - oczywiście przy odpowiednio dużej prędkości.</p><p>Pod koniec zajęć uczniowie przypominali sobie to, czego nauczyli się na poprzednich zajęciach - kierowanie mBot'em za pomocą pilota, rysowanie buziek oraz zapalanie diod. Rozpoczęliśmy również małe eksperymenty z trasami - na przykład połączyliśmy dwie ósemki, sprawdzając, czy robot potrafi zjeżdżać z jednej na drugą. Większa zabawa jednak dopiero przed nami ;) Na następne zajęcia przygotujemy dłuższe trasy i będziemy urządzać wyścigi. Spróbujemy też 'nauczyć' mBot'a radzić sobie z przeszkodami na drodze.</p>"
+    },
+    "graduation": "9",
+    "tutors": "4",
+    "technology": "mBot"
+  },
+  {
+    "datetime": {
+      "full": "2016-01-21 1430",
+      "day": "21",
+      "month": "Sty",
+      "year": "2016",
+      "time": "14:30"
+    },
+    "image": {
+      "src": "pictures/events/sp84_4_1.JPG",
+      "alt": "Wrocław - Szkoła Podstawowa nr 84"
+    },
+    "title": "Wrocław - Szkoła Podstawowa nr 84",
+    "desc": {
+      "link": "Szczegółowy opis",
+      "text": "<p>Styczniowe zajęcia w szkole upłynęły pod znakiem mBota. Niemniej to spotkanie nie było powieleniem poprzedniego – tym razem, oprócz samych robotów, przynieśliśmy również piloty. Uczniowie podzielili się na 4 grupy 2-3 osobowe, by opracowywać program dla swojego robota.</p><p>Każda z grup skupiła się na tym, by ich robot był zdalnie sterowany za pomocą pilota. Na początku powtórzyliśmy z młodymi programistami zasady działania robota. Uczniowie pamiętali bardzo dużo z poprzednich zajęć, więc nie trzeba było długo przypominać materiału. Marcin pokazał trik z pilotem ukazający, jak można zobaczyć światło diody pilota, które jest niewidoczne w normalnych warunkach dla ludzkiego oka. Potem było już programowanie i testowanie robotów. MBoty naszych podopiecznych reagowały na polecenia „wydawane” im pilotem – poruszały się: do przodu po wciśnięciu strzałki w górę, do tyłu po wciśnięciu strzałki w dół i skręcały w prawo (strzałka w prawo) oraz w lewo (strzałka w lewo). Kolejne przypisania klawiszy pilota do funkcji wykonywanych przez robota zależało od poszczegółnych grup. Roboty oprócz jazdy reagowały na przycisk np. klawisza 0, żeby się zatrzymać, a po przyciśnięciu np. liter A, B, C, D pokazywały na wyświetlaczu różne, narysowane przez chłopaków i dziewczyny buźki/napisy. Również oprócz ukazywania czegoś na wyświetlaczu uczniowie zaprogramowali wyświetlanie różnych kolorów na diodach, które znajdowały się pod nim. Z racji tego, że piloty są uniwersalne (nie są przypisane do konkretnego robota), testowaliśmy ustawienie mBotów obok siebie i sterowanie nimi za pomocą jednego pilota.</p><p>Już w przyszłym miesiącu, po feriach zimowych, będziemy programować robota, żeby jechał po linii i urządzimy wyścigi robotów! Nie możemy się doczekać!</p>"
+    },
+    "graduation": "12",
+    "tutors": "3",
+    "technology": "mBot"
+  },
+  {
+    "datetime": {
+      "full": "2015-12-17 1430",
+      "day": "17",
+      "month": "Gru",
+      "year": "2015",
+      "time": "14:30"
+    },
+    "image": {
+      "src": "pictures/events/sp84_3.JPG",
+      "alt": "Wrocław - Szkoła Podstawowa nr 84"
+    },
+    "title": "Wrocław - Szkoła Podstawowa nr 84",
+    "desc": {
+      "link": "Szczegółowy opis",
+      "text": "<p>W grudniu odbyły się już trzecie zajęcia w szkole. Tym razem uczniowie mieli okazję spotkać się z mBotem. Kiedy pod koniec zajęć listopadowych pokazaliśmy dzieciom krótkie demo mBota, było widać, że są zachwycone. Tym bardziej nie zdziwiło nas ożywienie dzieciaków podczas tych zajęć i dużo pytań.</p><p>Młodzi programiści zostali podzieleni na grupy 3-osobowe. Każdy z uczestników warsztatów angażował się w pracę całego zespołu. Na początku zajęć Marcin opowiedział o mBocie, przebiegu zajęć i co uczniowie powinni potrafić po ich zakończeniu. Każda z grup uczyła się we własnym tempie, każdy robot finalnie wykonywał trochę różniące się czynności. Jedna grupa skupiła się na jeździe robota i zmianie min, które pokazywały się na wyświetlaczu, druga grupa zaprogramowała robota tak, by przy napotkaniu przeszkody robot obracał się dookoła i zmienił minę na smutną. Natomiast trzecia grupa opracowała robota tak, by po włączeniu ruszał z miejsca i również zajęli się dynamiką jazdy, a najbardziej rozwiniętą funkcjonalnością było pokazywanie na wyświetlaczu prędkości robota.</p><p>Nam się podobało i byliśmy dumni z uczniów, druga strona również była zadowolona. Szczególnie budujące było to, że widać było obeznanie dzieci ze środowiskiem do programowania mBota po wcześniejszych zajęcia Scratch'a.</p>"
+    },
+    "graduation": "10",
+    "tutors": "3",
+    "technology": "mBot"
+  },
+  {
+    "datetime": {
+      "full": "2015-12-12 1430",
+      "day": "12",
+      "month": "Gru",
+      "year": "20165",
+      "time": "14:30"
+    },
+    "image": {
+      "src": "pictures/events/capgemini12.12.2015.jpeg",
+      "alt": "Wrocław – Warsztaty w Capgemini"
+    },
+    "title": "Wrocław – Warsztaty w Capgemini",
+    "desc": {
+      "link": "Szczegółowy opis",
+      "text": "<p>Spanie w soboty do południa jest dla słabeuszy :) Zamiast tego w drugą sobotę grudnia przeprowadziliśmy warsztaty dla dzieci pracowników firmy Capgemini. Podczas kilku intensywnych godzin dużo się śmialiśmy, świetnie się bawiliśmy, a przede wszystkim czujemy, że zarówno dzieci jaki i my, dużo się nauczyliśmy. Warsztaty zakończyliśmy zmęczeni, ale bardzo usatysfakcjonowani.</p><p>W zajęciach wzięło udział szesnaścioro dzieci w wieku od 6 do 13 lat podzielonych na cztery grupy wiekowe. Najmłodsi zaczęli zajęcia od zabawy wraz z rodzicami, by później przejść do pisania gry w języku Scratch. Tak, nawet najmłodsi mogą programować! :) Starsze grupy zarówno programowały gry, jak i roboty, a różnorodność bardzo przypadła im do gustu. Nowością były zajęcia z technologii App Inventor, podczas których najstarsza grupa zaprogramowała grę na telefon wzorowaną na Arkanoid.</p><p>Nasze warsztaty były wyjątkowe, gdyż dołączyliśmy do inicjatywy Godzina kodowania. Cieszymy się, że dzięki temu mogliśmy poczuć się częścią ogromnej idei i chociaż wirtualnie połączyć siły w szerzeniu edukacji informatycznej. Oby więcej takich okazji!</p>"
+    },
+    "graduation": "16",
+    "tutors": "11",
+    "technology": "scratch, mBot, AppInventor, Mindstorm, sphero"
+  },
+  {
+    "datetime": {
+      "full": "2015-11-30 1700",
+      "day": "30",
+      "month": "Lis",
+      "year": "2015",
+      "time": "17:00"
+    },
+    "image": {
+      "src": "pictures/events/robo_33degree.jpg",
+      "alt": "Wrocław – Prezentacja na konferencji 33rd Degree 4 Charity"
+    },
+    "title": "Wrocław – Prezentacja na konferencji 33rd Degree 4 Charity",
+    "desc": {
+      "link": "Szczegółowy opis",
+      "text": "<p>30 listopada tego roku mieliśmy zaszczyt wziąć udział w 33rd Degree 4 charity. Była to konferencja z programowania dla bardzo słusznej sprawy - wspierała bowiem akcje charytatywne: Szlachetną Paczkę, Fundację Mam Marzenie, Rak'n'roll, Devoxx4kid. Ponieważ idealnie wpisujemy się zarówno w ideę programowania, jak i pomagania nie mogło nas tam zabraknąć! Mało tego, mieliśmy okazję otwierać całe wydarzenie - nasz wykład odbył się jako pierwszy w poniedziałkowy ranek. Nasi słuchacze, wyposażeni w kawę, licznie przybyli posłuchać naszego wystąpienia. Tematem, którym się zajęliśmy było to, czym się zajmujemy w ramach naszych warsztatów, czyli nauką programowania w LEGO.</p><p>Podzieliliśmy się naszymi doświadczeniami i wrażeniami z rocznej przygody z dziećmi i programowaniem. Przybliżyliśmy nieco naszą inicjatywę, przedstawiliśmy zakres działania i metody, którymi się posługujemy: język programowy oraz narzędzia niezbędne przy naszych warsztatach. Naszą ekipę reprezentacyjną stanowiło dwóch Łukaszy (przedstawili techniczną i merytoryczną stronę naszych działań), Natalia (opowiedziała o ideach Robocapowych, o tym kim jesteśmy i z kim pracujemy), oraz nasze dwa roboty Lego: Tomasz i Popylacz, które były niekwestionowanymi gwiazdami wystąpienia i przedstawiły w praktyce to, czym się zajmujemy.</p><p>Dla naszych słuchaczy mieliśmy niespodziankę - identyczne zadanie jak to, któremu stawiają czoła nasi nastoletni warsztatowicze. Tęgie głowy programowania zgromadzone na sali mogły się przekonać, że problemy, które rozwiązujemy, mimo, że są dla dzieci - dziecinnie proste nie są. Nasze wystąpienie podsumowujemy jako bardzo udane, spotkało się z dużym odzewem po prelekcji - ku naszej ogólnej uciesze :) Dzięki niemu kilka osób dowiedziało się o naszej inicjatywie i mamy nadzieję, że z nowymi członkami, którzy do nas dołączą, będziemy mogli robić coraz więcej!</p>"
+    },
+    "graduation": "99+",
+    "tutors": "3",
+    "technology": "leJOS, Mindstorm"
+  },
+  {
+    "datetime": {
+      "full": "2015-11-26 1100",
+      "day": "26",
+      "month": "Lis",
+      "year": "2015",
+      "time": "11:00"
+    },
+    "image": {
+      "src": "pictures/events/sp84_2.jpg",
+      "alt": "Wrocław - Szkoła Podstawowa nr 84"
+    },
+    "title": "Wrocław - Szkoła Podstawowa nr 84",
+    "desc": {
+      "link": "Szczegółowy opis",
+      "text": "<p>Na drugich zajęciach w szkole podstawowej kontynuowaliśmy poznawanie Scratch'a, tym razem dzieci tworzyły w nim prostą grę - snake'a. Oczekiwany efekt końcowy został zaprezentowany na początku, a całe zadanie podzieliliśmy na etapy. Uczniowie realizowali je z naszą pomocą lub samodzielnie. Niektórzy dodawali również swoje własne pomysły, dzięki czemu ich gry naprawdę robiły wrażenie ;) Problemy techniczne, które na początku zajęć nieco ostudziły nasz zapał, stworzyły jeszcze większą okazję do kreatywności. Dzieci siedzące dwójkami przy komputerach prześcigały się w propozycjach ulepszenia gry, a my mogliśmy poświęcić im więcej uwagi. Pod koniec zajęć trzeba było wymyślać nowe zadania na bieżąco, pojawiły się także pytania o zadanie domowe. Część uczniów zaczęła je robić od razu :)</p><p>Podczas kilku ostatnich minut zajęć dzieci dowiedziały się po co jest nam potrzebna umiejętność posługiwania się Scratch'em. Pokazaliśmy im robota - line follower'a, którego będziemy programować na następnych zajęciach. mBot wywołał duże poruszenie - szykuje się więc przednia zabawa w przyszłym miesiącu :)</b></p>"
+    },
+    "graduation": "8",
+    "tutors": "3",
+    "technology": "scratch, mBot"
+  },
+  {
+    "datetime": {
+      "full": "2015-10-22 1300",
+      "day": "22",
+      "month": "Paź",
+      "year": "2015",
+      "time": "13:00"
+    },
+    "image": {
+      "src": "pictures/events/sp84_1.png",
+      "alt": "Wrocław - Szkoła Podstawowa nr 84"
+    },
+    "title": "Wrocław - Szkoła Podstawowa nr 84",
+    "desc": {
+      "link": "Szczegółowy opis",
+      "text": "<p>Spotkała nas po raz pierwszy przyjemność prowadzenia zajęć w szkole podstawowej. Zajęcia dotyczyły podstaw programowania w języku Scratch. Dzieci były bardzo aktywne oraz kreatywne. Pomimo początkowych trudności z zapanowaniem nad grupą uczniów z czasem było nam coraz łatwiej. Widać było dużą kreatywność u naszych podopiecznych. Każdy rozwijał swoją aplikację w kierunku obyślonym przez siebie. Dzięki sporej grupie prowadzących mogliśmy zastosować indywidualne podejście do każdej z osób. Dzięki temu dopasowaliśmy poziom odpowiednio do aktualnych umiejętności. Co najfaniejsze, byliśmy zalewani masą pytań. Każdy chciał wiedzieć jak można poprawić swoją aplikację, czy w jaki sposób można zrealizować swój ciekawy pomysł.</p><p>Wiele się nauczyliśmy dzięki tym zajęciom. Dzięki nim każde następne będą tylko lepsze. Dziękujemy wszystkim dzieciom za zabawę oraz mamy nadzięję, że wam się podobało. <b>Do zobaczenia już za miesiąc.</b></p>"
+    },
+    "graduation": "9",
+    "tutors": "4",
+    "technology": "scratch"
+  },
+  {
+    "datetime": {
+      "full": "2015-10-09 1100",
+      "day": "09",
+      "month": "Paź",
+      "year": "2015",
+      "time": "11:00"
+    },
+    "image": {
+      "src": "pictures/events/dd_edition_main.jpg",
+      "alt": "Wrocławskie Centrum Opieki Wychowania i Adopcji"
+    },
+    "title": "Wrocławskie Centrum Opieki Wychowania i Adopcji",
+    "desc": {
+      "link": "Szczegółowy opis",
+      "text": "W ubiegłą sobotę mieliśmy zaszczyt przeprowadzić zajęcia dla dzieci z wrocławskiego Domu Dziecka. Piętnaścioro wychowanków spędziło tę sobotę poznając się z robotami (makeblock). Wszystkie roboty dostały swoje imiona, żeby wymienić tylko jedno \"Stefan-Pięść\" :) Kreatywność nie opuszczała nas przez całe zajęcia i pomimo tego, iż każda z grup rozpoczęła zajęcia z taką samą wiedzą, zaprezentowany efekt końcowy u każdej z grup był inny. Wieńczące warsztaty prezentacje projektów wywołały u wszystkich mnówsto emocji i nieukrywanej dumy z osiągniętych efektów.</br>Cieszymy się i dziękujemy Domowi Dziecka, że mogliśmy w ten sposób umilić sobotę dzieciom!</br></br>Dla nas były to też pierwsze tak duże warsztaty, które przeprowadziliśmy dzięki połączonym siłom RoboCapa, w ramach idei \"porozumienia ponad podziałami\" ;) Zachęcamy do udziału w następnych warsztatach :)"
+    },
+    "graduation": "15",
+    "tutors": "7",
+    "technology": "JavaScript"
+  },
+  {
+    "datetime": {
+      "full": "2015-09-23 0900",
+      "day": "23",
+      "month": "Wrz",
+      "year": "2015",
+      "time": "09:00"
+    },
+    "image": {
+      "src": "pictures/events/sp84-1.jpg",
+      "alt": "Szkoła podstawowa nr 84 we Wrocławiu"
+    },
+    "title": "Szkoła podstawowa nr 84 we Wrocławiu",
+    "desc": {
+      "link": "Szczegółowy opis",
+      "text": "Co za emocje! Dziś po długich przygotowaniach odwiedziliśmy w końcu z warsztatami Robocap Dzieci ze szkoły podstawowej nr 84 we Wrocławiu. Co prawda było to spotkanie inicjujące cykl warsztatów i lekka trema była, ale powitało nas ponad 60 uśmiechniętych twarzy :) Aktywność dzieci i emocje jakie pojawiły się podczas zaznajamiania się ze <ul><li>Sphero,</li><li>Scratch,</li><li>MindStorm</li><li>i MakeBlock</li></ul>dały nam niesamowity zastrzyk pozytywnej energii i chęć do dalszego działania. Już nie możemy doczekać się następnych zajęći kolejnych wyzwań jakie przed nami postawią młode umysły :)</br>Super, że dzięki wrocławskiemu Urzędowi Miejskiemu udało się nawiązać współpracę ze Szkołą!"
+    },
+    "graduation": "30",
+    "tutors": "8",
+    "technology": "sphero, Mindstorm, mBot, scratch"
+  },
+  {
+    "datetime": {
+      "full": "2015-07-24 0900",
+      "day": "24",
+      "month": "Lip",
+      "year": "2015",
+      "time": "09:00"
+    },
+    "image": {
+      "src": "pictures/events/wks2s.jpg",
+      "alt": "Workshop Capgemini"
+    },
+    "title": "Workshop Capgemini",
+    "desc": {
+      "link": "Szczegółowy opis",
+      "text": "Pierwsze Warsztaty Capgemini rozbudziły apetyty, dlatego z nową grupą i nowymi prowadzącymi powtórzyliśmy sukces! Ponownie był Makeblock i zawody line followerów i do ostatniej chwili uczestnicy dopasowywali algortmy także dopiero ostatni przejazd wyłonił zwycięzców."
+    },
+    "graduation": "24",
+    "tutors": "3",
+    "technology": "mBot, Arduino"
+  },
+  {
+    "datetime": {
+      "full": "2015-06-22 0900",
+      "day": "22",
+      "month": "Cze",
+      "year": "2015",
+      "time": "09:00"
+    },
+    "image": {
+      "src": "pictures/events/wks1s.jpg",
+      "alt": "Recenzja książki „JavaScript dla dzieci” wydawnictwa PWN"
+    },
+    "title": "Recenzja książki „JavaScript dla dzieci” wydawnictwa PWN",
+    "desc": {
+      "link": "Szczegółowy opis",
+      "text": "Po wymagających warsztatach z dziećmi przyszedł czas na odpoczynek ;), zajęcia ze starszą grupą 24+. Na warsztat wzięliśmy ze sobą Makeblock'i a uczestnicy po wprowadzeniu teoretycznym mieli za zadanie samodzielne skonstruowanie robotów a następnie zaprogramowanie ich, aby mogły wziąć udział w zawodach line followerów. Emocje towarzyszące rywalizacji niezapomniane :)"
+    },
+    "graduation": "24",
+    "tutors": "3",
+    "technology": "mBot, Arduino"
+  },
+  {
+    "datetime": {
+      "full": "2015-05-16 0900",
+      "day": "16",
+      "month": "Maj",
+      "year": "2015",
+      "time": "09:00"
+    },
+    "image": {
+      "src": "pictures/events/hospital_edition.jpg",
+      "alt": "Szpital przy Borowskiej"
+    },
+    "title": "Szpital, Oddział Nefrologii Dziecięcej",
+    "desc": {
+      "link": "Szczegółowy opis",
+      "text": "Premierowe warsztaty poza biurem! Nawiązaliśmy współpracę z Dziecięcą Nefrologią z <a target=\"_blank\" href=\"http://www.usk.wroc.pl/index.php?option=com_content&view=article&id=375&Itemid=71\">ASK we Wrocławiu</a>.Szpitalne korytarze w ten majowy weekend zmieniły się w pole walki robotów, a świetlicę i salę konferencyjną wypełnił śmiech i radość dzieci, którym udało się rozwiązać niebanalne zadaniai zaskoczyć prowadzących swoją kreatywnością."
+    },
+    "graduation": "11",
+    "tutors": "4",
+    "technology": "sphero, Mindstorm"
+  },
+  {
+    "datetime": {
+      "full": "2015-03-21 0900",
+      "day": "21",
+      "month": "Mar",
+      "year": "2015",
+      "time": "09:00"
+    },
+    "image": {
+      "src": "pictures/events/third_edition.jpg",
+      "alt": "Trzecie warsztaty w Capgemini"
+    },
+    "title": "Trzecie warsztaty w Capgemini",
+    "desc": {
+      "link": "Szczegółowy opis",
+      "text": "Podczas trzecich warsztatów, korzystając z już zdobytego doświadczenia, wprowadzilśimy szereg zmian w ramówce. Dzięki temu wprowadziliśmy do zajęć nowe technologie i poprawiliśmy dotychczasowe zadania. Uzyskana dynamika podobała się zarówno dzieciom i prowadzącym. Nie ma mowy o nudzie :)"
+    },
+    "graduation": "20",
+    "tutors": "10",
+    "technology": "sphero, Mindstorm, Makeblock, scratch, RoboGames"
+  },
+  {
+    "datetime": {
+      "full": "2015-02-07 1100",
+      "day": "07",
+      "month": "Lut",
+      "year": "2015",
+      "time": "11:00"
+    },
+    "image": {
+      "src": "pictures/events/second_edition.jpg",
+      "alt": "Drugie warsztaty w Capgemini"
+    },
+    "title": "Drugie warsztaty w Capgemini",
+    "desc": {
+      "link": "Szczegółowy opis",
+      "text": "Do drugich warsztatów podeszliśmy już nieco spokojniej dzięki wcześniejszemu doświadczeniu. Przyniosły one wiele uśmiechu, a pokaz uświetniła projekcja filmu powstałego w trakcie zajęć."
+    },
+    "graduation": "17",
+    "tutors": "9",
+    "technology": "sphero, Mindstorm, Makeblock, scratch, RoboGames"
+  },
+  {
+    "datetime": {
+      "full": "2014-11-29 0800",
+      "day": "29",
+      "month": "Lis",
+      "year": "2014",
+      "time": "08:00"
+    },
+    "image": {
+      "src": "pictures/events/first_edition.png",
+      "alt": "Pierwsze warsztaty w Capgemini"
+    },
+    "title": "Pierwsze warsztaty w Capgemini",
+    "desc": {
+      "link": "Szczegółowy opis",
+      "text": "W ostatnią sobotę listopada odbyła się światowa premiera organizowanego przez naszych pracowników warsztatu. Początkowo towarzyszyło nam sporo tremy i obawa, że może coś pójdzie nie tak, może coś nie zadziała. Chcieliśmy pokazać dzieciom informatykę z tej jasnej, kreatywnej i wesołej strony. Nuda została za drzwiami!"
+    },
+    "graduation": "19",
+    "tutors": "11",
+    "technology": "sphero, Mindstorm, Makeblock, scratch, RoboGames"
   }
 ]
