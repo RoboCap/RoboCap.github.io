@@ -36,14 +36,76 @@
     <!-- magnific-popup -->
     <link rel="stylesheet" href="assets/css/magnific-popup.css">
 
+    <!-- Templates -->
+    <script id="wydarzenieTemplate" type="text/html">
+        <li>
+            <time datetime="{{ datetime.full }}">
+                <span class="day">{{ datetime.day }}</span>
+                <span class="month">{{ datetime.month }}</span>
+                <span class="year">{{ datetime.year }}</span>
+                <span class="time">{{ datetime.time }}</span>
+            </time>
+            <img alt="{{ image.alt }}" src="{{ image.src }}" />
+            <div class="info">
+                <h2 class="title">{{ title }}</h2>
+                <p class="desc"><a id="link{{ id }}" href="#{{ id }}"><span class="fa fa-pencil-square-o"></span> {{ desc.link }}</a></p>
+                <ul>
+                    <li style="width:20%;"><span class="fa fa-graduation-cap"></span> {{ graduation }}</li>
+                    <li style="width:20%;"><span class="fa fa-users"></span> {{ tutors }}</li>
+                    <li style="width:60%;"><span class="fa fa-cogs"></span> {{ technology }}</li>
+                </ul>
+            </div>
+        </li>
+    </script>
+
+    <script id="wydarzenieSzczegolyTemplate" type="text/html">
+        <div class="about white-popup mfp-hide" id="{{ id }}">
+            <div class="row">
+                <ul class="event-list">
+                    <li>
+                        <time datetime="{{ datetime.full }}">
+                            <span class="day">{{ datetime.day }}</span>
+                            <span class="month">{{ datetime.month }}</span>
+                            <span class="year">{{ datetime.year }}</span>
+                            <span class="time">{{ datetime.time }}</span>
+                        </time>
+                        <div class="info">
+                            <h2 class="title">{{ title }}</h2>
+                            <ul>
+                                <li style="width:20%;"><span class="fa fa-graduation-cap"></span> {{ graduation }}</li>
+                                <li style="width:20%;"><span class="fa fa-users"></span> {{ tutors }}</li>
+                                <li style="width:60%;"><span class="fa fa-cogs"></span> {{ technology }}</li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 text-justify">
+                    <hr>
+                    <p>{{{ desc.text }}}</p>
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 text-center">
+                    <a class="img-container"><img alt="{{ image.alt }}" src="{{ image.src }}" style="max-width: 90%"></a>
+                </div>
+            </div>
+        </div>
+    </script>
+
 	<!-- Javascript -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
 	<script type="text/javascript" src="assets/plugins/jquery.slimscroll.min.js"></script>
 	<script type="text/javascript" src="assets/plugins/jquery.fullPage.min.js"></script>
 	<script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/magnific-popup.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/template/ICanHaz.min.js"></script>
+
+
 	<script type="text/javascript" src="assets/js/main.js"></script>
-    <script type="text/javascript" src="assets/js/magnific-popup.min.js"></script>
 
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -346,639 +408,18 @@
             <div class="container">
                 <div class="row">
                     <div class="[ col-xs-12 col-sm-offset-2 col-sm-8 ]">
-                        <ul class="event-list">
-                            <li>
-                                <time datetime="2017-xx-yy 1100">
-                                    <span class="day">??</span>
-                                    <span class="month">???</span>
-                                    <span class="year">2017</span>
-                                    <span class="time">11:00</span>
-                                </time>
-                                <img alt="Where to next?" src="logoRobocap.png" />
-                                <div class="info">
-                                    <h2 class="title">Szukamy następnego warsztatu</h2>
-                                    <p class="desc"><a href=""><span class="fa fa-pencil-square-o"></span> ponieważ lubimy wyzwania :)</a></p>
-                                    <ul>
-                                        <li style="width:20%;"><span class="fa fa-graduation-cap"></span> ^_^</li>
-                                        <li style="width:20%;"><span class="fa fa-users"></span> ^_^</li>
-                                        <li style="width:60%;"><span class="fa fa-cogs"></span> ^_^</li>
-                                    </ul>
-                                </div>
-                            </li>
-
-                            <li>
-                                <time datetime="2017-05-29 0900">
-                                    <span class="day">29</span>
-                                    <span class="month">Maj</span>
-                                    <span class="year">2017</span>
-                                    <span class="time">09:00</span>
-                                </time>
-                                <img alt="SP12 Wrocław" src="pictures/events/sp12-small-20170529.jpg" />
-                                <div class="info">
-                                    <h2 class="title">Szkoła Podstawowa nr 12, Wrocław</h2>
-                                    <p class="desc"><a href="subpages/events/sp12_170529.html" class="ajax-popup-link"><span class="fa fa-pencil-square-o"></span>zabawa dla wszystkich w zerówce :)</a></p>
-                                    <ul>
-                                        <li style="width:20%;"><span class="fa fa-graduation-cap"></span>16</li>
-                                        <li style="width:20%;"><span class="fa fa-users"></span>5</li>
-                                        <li style="width:60%;"><span class="fa fa-cogs"></span>szczotkowce, mBot, sphero, Mindstorm, kopara</li>
-                                    </ul>
-                                </div>
-                            </li>
-
-                            
-                            <li>
-                                <time datetime="2017-03-04 1100">
-                                    <span class="day">04</span>
-                                    <span class="month">Mar</span>
-                                    <span class="year">2017</span>
-                                    <span class="time">11:00</span>
-                                </time>
-                                <img alt="Wrocławskie Centrum Opieki i Wychowania" src="pictures/events/wcow20170304.JPG" />
-                                <div class="info">
-                                    <h2 class="title">Wrocławskie Centrum Opieki i Wychowania</h2>
-                                    <p class="desc"><a href=""><span class="fa fa-pencil-square-o"></span> Szczegółowy opis wkrótce</a></p>
-                                    <ul>
-                                        <li style="width:20%;"><span class="fa fa-graduation-cap"></span>10</li>
-                                        <li style="width:20%;"><span class="fa fa-users"></span>4</li>
-                                        <li style="width:60%;"><span class="fa fa-cogs"></span> mBot</li>
-                                    </ul>
-                                </div>
-                            </li>
-
-                            <li>
-                                <time datetime="2017-02-22 1100">
-                                    <span class="day">22</span>
-                                    <span class="month">Lut</span>
-                                    <span class="year">2017</span>
-                                    <span class="time">11:00</span>
-                                </time>
-                                <img alt="Fundacja Iskierka we Wrocławiu" src="pictures/events/iskierka20170222.JPG" />
-                                <div class="info">
-                                    <h2 class="title">Fundacja Iskierka we Wrocławiu</h2>
-                                    <p class="desc"><a href=""><span class="fa fa-pencil-square-o"></span> Szczegółowy opis wkrótce</a></p>
-                                    <ul>
-                                        <li style="width:20%;"><span class="fa fa-graduation-cap"></span> 13</li>
-                                        <li style="width:20%;"><span class="fa fa-users"></span> 3</li>
-                                        <li style="width:60%;"><span class="fa fa-cogs"></span> mBot / MindStorm</li>
-                                    </ul>
-                                </div>
-                            </li>
-
-                            
-                            <li>
-                                <time datetime="2017-02-04 1100">
-                                    <span class="day">04</span>
-                                    <span class="month">Lut</span>
-                                    <span class="year">2017</span>
-                                    <span class="time">11:00</span>
-                                </time>
-                                <img alt="Miejska Bibiioteka Publiczna nr 23 we Wrocławiu" src="pictures/events/mbp20170204.JPG" />
-                                <div class="info">
-                                    <h2 class="title">Miejska Bibiioteka Publiczna nr 23 we Wrocławiu</h2>
-                                    <p class="desc"><a href=""><span class="fa fa-pencil-square-o"></span> Szczegółowy opis wkrótce</a></p>
-                                    <ul>
-                                        <li style="width:20%;"><span class="fa fa-graduation-cap"></span>9</li>
-                                        <li style="width:20%;"><span class="fa fa-users"></span>4</li>
-                                        <li style="width:60%;"><span class="fa fa-cogs"></span> Ciastolina / Szczotkowce</li>
-                                    </ul>
-                                </div>
-                            </li>
-                            
-                            <li>
-                                <time datetime="2016-12-04 1100">
-                                    <span class="day">04</span>
-                                    <span class="month">gru</span>
-                                    <span class="year">2016</span>
-                                    <span class="time">11:00</span>
-                                </time>
-                                <img alt="AMW" src="pictures/events/amw20161204.JPG" />
-                                <div class="info">
-                                    <h2 class="title">Akademia Młodych Wynalazców w Częstochowie</h2>
-                                    <p class="desc"><a href=""><span class="fa fa-pencil-square-o"></span> Szczegółowy opis wkrótce</a></p>
-                                    <ul>
-                                        <li style="width:20%;"><span class="fa fa-graduation-cap"></span>27</li>
-                                        <li style="width:20%;"><span class="fa fa-users"></span>7</li>
-                                        <li style="width:60%;"><span class="fa fa-cogs"></span> Mindstorm / mBot / Sphero</li>
-                                    </ul>
-                                </div>
-                            </li>
-                            
-                            <li>
-                                <time datetime="2016-09-24 1100">
-                                    <span class="day">24</span>
-                                    <span class="month">Wrz</span>
-                                    <span class="year">2016</span>
-                                    <span class="time">11:00</span>
-                                </time>
-                                <img alt="Miejska Biblioteka Publiczna 23 we Wrocławiu" src="pictures/events/mbp23-2016.jpg" />
-                                <div class="info">
-                                    <h2 class="title">Miejska Biblioteka Publiczna 23 we Wrocławiu</h2>
-                                    <p class="desc"><a href="subpages/events/mbp23_160924.html" class="ajax-popup-link"><span class="fa fa-pencil-square-o"></span> Szczegółowy opis</a></p>
-                                    <ul>
-                                        <li style="width:20%;"><span class="fa fa-graduation-cap"></span>10</li>
-                                        <li style="width:20%;"><span class="fa fa-users"></span>4</li>
-                                        <li style="width:60%;"><span class="fa fa-cogs"></span> Ciastolina / Szczotkowce</li>
-                                    </ul>
-                                </div>
-                            </li>
-            
-                            <!-- SP 84 - 09.06.2016 -->
-                            <li>
-                                <time datetime="2016-09-24 1100">
-                                    <span class="day">10</span>
-                                    <span class="month">Wrz</span>
-                                    <span class="year">2016</span>
-                                    <span class="time">11:00</span>
-                                </time>
-                                <img alt="Miejska Biblioteka Publiczna 23 we Wrocławiu" src="pictures/events/devoxx4kids2016.jpg" />
-                                <div class="info">
-                                    <h2 class="title">RoboCap Devoxx4Kids, Wrocław</h2>
-                                    <p class="desc"><a href="subpages/events/devoxx_160910.html"><span class="fa fa-pencil-square-o"></span> Szczegółowy opis</a></p>
-                                    <ul>
-                                        <li style="width:20%;"><span class="fa fa-graduation-cap"></span>16</li>
-                                        <li style="width:20%;"><span class="fa fa-users"></span>4</li>
-                                        <li style="width:60%;"><span class="fa fa-cogs"></span> mBot</li>
-                                    </ul>
-                                </div>
-                            </li>
-                            
-                            <!-- Recenzja JavaScript -->
-                            <li>
-                                <time datetime="2016-09-24 1100">
-                                    <span class="day">xy</span>
-                                    <span class="month">Sie</span>
-                                    <span class="year">2016</span>
-                                    <span class="time">11:00</span>
-                                </time>
-                                <img alt="Recenzja książki „JavaScript dla dzieci” wydawnictwa PWN" src="pictures/others/javaScriptPWN-mini.jpg" />
-                                <div class="info">
-                                    <h2 class="title">Recenzja książki „JavaScript dla dzieci” wydawnictwa PWN</h2>
-                                    <p class="desc"><a href="subpages/others/javascript_review.html"><span class="fa fa-pencil-square-o"></span> Szczegółowy opis</a></p>
-                                    <ul>
-                                        <li style="width:20%;"><span class="fa fa-graduation-cap"></span>n/a</li>
-                                        <li style="width:20%;"><span class="fa fa-users"></span>1</li>
-                                        <li style="width:60%;"><span class="fa fa-cogs"></span> </li>
-                                    </ul>
-                                </div>
-                            </li>
-                        </ul>
-                        
-                        <br>
-                        <br>
+                        <!-- AJAX loaded and client-side rendered -->
+                        <ul class="event-list" id="wydarzenia-nowe"></ul>
+                        <br><br>
                         <!-- start do wszystkie wydarzenia -->
                         <div class="center-it">
-                            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#eventsAll" style="text-align:center;">Zobacz wszystkie wydarzenia</button>
+                            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#eventsAllDiv" style="text-align:center;">Zobacz wszystkie wydarzenia</button>
                         </div>
-                        <div id="eventsAll" class="collapse">
-                        
-                        <br>
-                        <br>
-                        <ul class="event-list">
-
-                            <!-- SP 84 - 09.06.2016 -->
-                            <li>
-                                <time datetime="2016-06-09 1100">
-                                    <span class="day">09</span>
-                                    <span class="month">Cze</span>
-                                    <span class="year">2016</span>
-                                    <span class="time">11:00</span>
-                                </time>
-                                <img alt="miniatura" src="pictures/events/sp84_9_1.JPG" />
-                                <div class="info">
-                                    <h2 class="title">Wrocław - Szkoła Podstawowa nr 84</h2>
-                                    <p class="desc"><a href="subpages/events/sp84_9.html"><span class="fa fa-pencil-square-o"></span> Szczegółowy opis</a></p>
-                                    <ul>
-                                        <li style="width:20%;"><span class="fa fa-graduation-cap"></span>11</li>
-                                        <li style="width:20%;"><span class="fa fa-users"></span>3</li>
-                                        <li style="width:60%;"><span class="fa fa-cogs"></span>mBot</li>
-                                    </ul>
-                                </div>
-                            </li>
-                            
-                            
-                            <!-- Krzywy Komin - 4.06.2016 -->
-                            <li>
-                                <time datetime="2016-06-09 1100">
-                                    <span class="day">04</span>
-                                    <span class="month">Cze</span>
-                                    <span class="year">2016</span>
-                                    <span class="time">11:00</span>
-                                </time>
-                                <img alt="miniatura" src="pictures/events/krzywy_komin_1.JPG" />
-                                <div class="info">
-                                    <h2 class="title">Wrocław - Warsztaty otwarte w Krzywym Kominie</h2>
-                                    <p class="desc"><a href="subpages/events/krzywy_komin.html"><span class="fa fa-pencil-square-o"></span> Szczegółowy opis</a></p>
-                                    <ul>
-                                        <li style="width:20%;"><span class="fa fa-graduation-cap"></span>8</li>
-                                        <li style="width:20%;"><span class="fa fa-users"></span>6</li>
-                                        <li style="width:60%;"><span class="fa fa-cogs"></span>Ciastolina / Scratch</li>
-                                    </ul>
-                                </div>
-                            </li>
-                            
-                            <!-- SP 84 - 19.05.2016 -->
-                            <li>
-                                <time datetime="2016-05-19 1100">
-                                    <span class="day">19</span>
-                                    <span class="month">Maj</span>
-                                    <span class="year">2016</span>
-                                    <span class="time">11:00</span>
-                                </time>
-                                <img alt="miniatura" src="pictures/events/sp84_8_1.JPG" />
-                                <div class="info">
-                                    <h2 class="title">Wrocław - Szkoła Podstawowa nr 84</h2>
-                                    <p class="desc"><a href="subpages/events/sp84_8.html"><span class="fa fa-pencil-square-o"></span> Szczegółowy opis</a></p>
-                                    <ul>
-                                        <li style="width:20%;"><span class="fa fa-graduation-cap"></span>9</li>
-                                        <li style="width:20%;"><span class="fa fa-users"></span>3</li>
-                                        <li style="width:60%;"><span class="fa fa-cogs"></span>mBot</li>
-                                    </ul>
-                                </div>
-                            </li>
-                            
-                            <!-- Recenzja Python -->
-                            <li>
-                                <time datetime="2016-05-01 1100">
-                                    <span class="day">xy</span>
-                                    <span class="month">Maj</span>
-                                    <span class="year">2016</span>
-                                    <span class="time">11:00</span>
-                                </time>
-                                <img alt="miniatura" src="pictures/others/python_mini.png" />
-                                <div class="info">
-                                    <h2 class="title">Recenzja książki „Python dla dzieci” wydawnictwa PWN</h2>
-                                    <p class="desc"><a href="subpages/events/python_review.html"><span class="fa fa-pencil-square-o"></span> Szczegółowy opis</a></p>
-                                    <ul>
-                                        <li style="width:20%;"><span class="fa fa-graduation-cap"></span> n/a</li>
-                                        <li style="width:20%;"><span class="fa fa-users"></span>1</li>
-                                        <li style="width:60%;"><span class="fa fa-cogs"></span> n/a</li>
-                                    </ul>
-                                </div>
-                            </li>
-                            
-                            <!-- SP 84 - 21.04.2016 -->
-                            <li>
-                                <time datetime="2016-04-21 1100">
-                                    <span class="day">21</span>
-                                    <span class="month">Kwi</span>
-                                    <span class="year">2016</span>
-                                    <span class="time">11:00</span>
-                                </time>
-                                <img alt="miniatura" src="pictures/events/sp84_7_1.JPG" />
-                                <div class="info">
-                                    <h2 class="title">Wrocław - Szkoła Podstawowa nr 84</h2>
-                                    <p class="desc"><a href="subpages/events/sp84_7.html"><span class="fa fa-pencil-square-o"></span> Szczegółowy opis</a></p>
-                                    <ul>
-                                        <li style="width:20%;"><span class="fa fa-graduation-cap"></span> 8</li>
-                                        <li style="width:20%;"><span class="fa fa-users"></span>3</li>
-                                        <li style="width:60%;"><span class="fa fa-cogs"></span> mBot</li>
-                                    </ul>
-                                </div>
-                            </li>
-                            
-                            <!-- Recenzja Ruby -->
-                            <li>
-                                <time datetime="2016-04-01 1100">
-                                    <span class="day">xy</span>
-                                    <span class="month">Kwi</span>
-                                    <span class="year">2016</span>
-                                    <span class="time">11:00</span>
-                                </time>
-                                <img alt="miniatura" src="pictures/others/ruby_mini.png" />
-                                <div class="info">
-                                    <h2 class="title">Recenzja książki „Magia Ruby” wydawnictwa PWN</h2>
-                                    <p class="desc"><a href="subpages/others/ruby_review.html"><span class="fa fa-pencil-square-o"></span> Szczegółowy opis</a></p>
-                                    <ul>
-                                        <li style="width:20%;"><span class="fa fa-graduation-cap"></span> n/a</li>
-                                        <li style="width:20%;"><span class="fa fa-users"></span>1</li>
-                                        <li style="width:60%;"><span class="fa fa-cogs"></span> n/a</li>
-                                    </ul>
-                                </div>
-                            </li>
-                            
-                            <!-- SP 84 - 10.03.2016 -->
-                            <li>
-                                <time datetime="2016-03-10 1100">
-                                    <span class="day">10</span>
-                                    <span class="month">Mar</span>
-                                    <span class="year">2016</span>
-                                    <span class="time">11:00</span>
-                                </time>
-                                <img alt="miniatura" src="pictures/events/sp84_6.jpg" />
-                                <div class="info">
-                                    <h2 class="title">Wrocław - Szkoła Podstawowa nr 84</h2>
-                                    <p class="desc"><a href="subpages/events/sp84_6.html"><span class="fa fa-pencil-square-o"></span> Szczegółowy opis</a></p>
-                                    <ul>
-                                        <li style="width:20%;"><span class="fa fa-graduation-cap"></span> 7</li>
-                                        <li style="width:20%;"><span class="fa fa-users"></span>2</li>
-                                        <li style="width:60%;"><span class="fa fa-cogs"></span> mBot</li>
-                                    </ul>
-                                </div>
-                            </li>
-                            
-                            <!-- SP 84 - 29.02.2016 -->
-                            <li>
-                                <time datetime="2016-02-29 1430">
-                                    <span class="day">29</span>
-                                    <span class="month">Lut</span>
-                                    <span class="year">2016</span>
-                                    <span class="time">14:30</span>
-                                </time>
-                                <img alt="miniatura" src="pictures/events/sp84_5.JPG" />
-                                <div class="info">
-                                    <h2 class="title">Wrocław - Szkoła Podstawowa nr 84</h2>
-                                    <p class="desc"><a href="subpages/events/sp84_5.html"><span class="fa fa-pencil-square-o"></span> Szczegółowy opis</a></p>
-                                    <ul>
-                                        <li style="width:20%;"><span class="fa fa-graduation-cap"></span> 9</li>
-                                        <li style="width:20%;"><span class="fa fa-users"></span>4</li>
-                                        <li style="width:60%;"><span class="fa fa-cogs"></span> mBot</li>
-                                    </ul>
-                                </div>
-                            </li>
-                            
-                            <!-- SP 84 - 21.01.2016 -->
-                            <li>
-                                <time datetime="2016-01-21 1430">
-                                    <span class="day">21</span>
-                                    <span class="month">Sty</span>
-                                    <span class="year">2016</span>
-                                    <span class="time">14:30</span>
-                                </time>
-                                <img alt="miniatura" src="pictures/events/sp84_4_1.JPG" />
-                                <div class="info">
-                                    <h2 class="title">Wrocław - Szkoła Podstawowa nr 84</h2>
-                                    <p class="desc"><a href="subpages/events/sp84_4.html"><span class="fa fa-pencil-square-o"></span> Szczegółowy opis</a></p>
-                                    <ul>
-                                        <li style="width:20%;"><span class="fa fa-graduation-cap"></span> 12</li>
-                                        <li style="width:20%;"><span class="fa fa-users"></span>3</li>
-                                        <li style="width:60%;"><span class="fa fa-cogs"></span> mBot</li>
-                                    </ul>
-                                </div>
-                            </li>
-                            
-                            <!-- SP 84 - 17.12.2015 -->
-                            <li>
-                                <time datetime="2015-12-17 1430">
-                                    <span class="day">17</span>
-                                    <span class="month">gru</span>
-                                    <span class="year">2015</span>
-                                    <span class="time">14:30</span>
-                                </time>
-                                <img alt="miniatura" src="pictures/events/sp84_3.JPG" />
-                                <div class="info">
-                                    <h2 class="title">Wrocław - Szkoła Podstawowa nr 84</h2>
-                                    <p class="desc"><a href="subpages/events/sp84_3.html"><span class="fa fa-pencil-square-o"></span> Szczegółowy opis</a></p>
-                                    <ul>
-                                        <li style="width:20%;"><span class="fa fa-graduation-cap"></span> 6</li>
-                                        <li style="width:20%;"><span class="fa fa-users"></span>3</li>
-                                        <li style="width:60%;"><span class="fa fa-cogs"></span> mBot</li>
-                                    </ul>
-                                </div>
-                            </li>
-                            
-                            <!-- Capgemini -4 - 12.12.2015 -->
-                            <li>
-                                <time datetime="2015-12-12 1430">
-                                    <span class="day">17</span>
-                                    <span class="month">gru</span>
-                                    <span class="year">2015</span>
-                                    <span class="time">14:30</span>
-                                </time>
-                                <img alt="miniatura" src="pictures/events/capgemini12.12.2015.jpeg" />
-                                <div class="info">
-                                    <h2 class="title">Wrocław – Warsztaty w Capgemini</h2>
-                                    <p class="desc"><a href="subpages/events/capgemini12.12.2015.html"><span class="fa fa-pencil-square-o"></span> Szczegółowy opis</a></p>
-                                    <ul>
-                                        <li style="width:20%;"><span class="fa fa-graduation-cap"></span> 16</li>
-                                        <li style="width:20%;"><span class="fa fa-users"></span> 11</li>
-                                        <li style="width:60%;"><span class="fa fa-cogs"></span>scratch / mBot / AppInventor / Mindstorm / Sphero</li>
-                                    </ul>
-                                </div>
-                            </li>
-                            
-                            <!-- 33rd Degree 4 Charity 30.11.2015 -->
-                            <li>
-                                <time datetime="2015-11-30 1100">
-                                    <span class="day">30</span>
-                                    <span class="month">Lis</span>
-                                    <span class="year">2015</span>
-                                    <span class="time">11:00</span>
-                                </time>
-                                <img alt="miniatura" src="pictures/events/robo_33degree.jpg" />
-                                <div class="info">
-                                    <h2 class="title">Wrocław – Prezentacja na konferencji 33rd Degree 4 Charity</h2>
-                                    <p class="desc"><a href="subpages/events/33rdDegree.html"><span class="fa fa-pencil-square-o"></span> Szczegółowy opis</a></p>
-                                    <ul>
-                                        <li style="width:20%;"><span class="fa fa-graduation-cap"></span> 99+</li>
-                                        <li style="width:20%;"><span class="fa fa-users"></span> 3</li>
-                                        <li style="width:60%;"><span class="fa fa-cogs"></span> leJOS / Mindstorm</li>
-                                    </ul>
-                                </div>
-                            </li>
-                            
-                            <!-- SP 84 - 2 -->
-                            <li>
-                                <time datetime="2015-11-26 1100">
-                                    <span class="day">26</span>
-                                    <span class="month">Lis</span>
-                                    <span class="year">2015</span>
-                                    <span class="time">11:00</span>
-                                </time>
-                                <img alt="miniatura" src="pictures/events/sp84_2.jpg" />
-                                <div class="info">
-                                    <h2 class="title">Wrocław - Szkoła Podstawowa nr 84</h2>
-                                    <p class="desc"><a href="subpages/events/sp84_2.html"><span class="fa fa-pencil-square-o"></span> Szczegółowy opis</a></p>
-                                    <ul>
-                                        <li style="width:20%;"><span class="fa fa-graduation-cap"></span> 8</li>
-                                        <li style="width:20%;"><span class="fa fa-users"></span> 3</li>
-                                        <li style="width:60%;"><span class="fa fa-cogs"></span> mBot</li>
-                                    </ul>
-                                </div>
-                            </li>
-                            
-                            <!-- SP 84 - 1 -->
-                            <li>
-                                <time datetime="2015-10-22 1430">
-                                    <span class="day">22</span>
-                                    <span class="month">Paź</span>
-                                    <span class="year">2015</span>
-                                    <span class="time">14:30</span>
-                                </time>
-                                <img alt="miniatura" src="pictures/events/sp84_1.png" />
-                                <div class="info">
-                                    <h2 class="title">Wrocław - Szkoła Podstawowa nr 84</h2>
-                                    <p class="desc"><a href="subpages/events/sp84_1.html"><span class="fa fa-pencil-square-o"></span> Szczegółowy opis</a></p>
-                                    <ul>
-                                        <li style="width:20%;"><span class="fa fa-graduation-cap"></span> 9</li>
-                                        <li style="width:20%;"><span class="fa fa-users"></span> 4</li>
-                                        <li style="width:60%;"><span class="fa fa-cogs"></span> mBot</li>
-                                    </ul>
-                                </div>
-                            </li>
-                            
-                            <!-- Dom Dziecka-->
-                            <li>
-                                <time datetime="2015-10-09 1100">
-                                    <span class="day">09</span>
-                                    <span class="month">Paź</span>
-                                    <span class="year">2015</span>
-                                    <span class="time">11:00 AM</span>
-                                </time>
-                                <img alt="miniatura" src="pictures/dd_edition_main.jpg" />
-                                <div class="info">
-                                    <h2 class="title">Wrocławskie Centrum Opieki Wychowania i Adopcji</h2>
-                                    <p class="desc"><a href="dd2015-1.html"><span class="fa fa-pencil-square-o"></span> Szczegółowy opis</a></p>
-                                    <ul>
-                                        <li style="width:20%;"><span class="fa fa-graduation-cap"></span> 15</li>
-                                        <li style="width:20%;"><span class="fa fa-users"></span> 7</li>
-                                        <li style="width:60%;"><span class="fa fa-cogs"></span> mBot</li>
-                                    </ul>
-                                </div>
-                            </li>
-                            
-                            <!-- SP84 initial -->
-                            <li>
-                                <time datetime="2015-09-23 0900">
-                                    <span class="day">23</span>
-                                    <span class="month">Wrz</span>
-                                    <span class="year">2015</span>
-                                    <span class="time">09:00 AM</span>
-                                </time>
-                                <img alt="miniatura" src="pictures/sp84-1.jpg" />
-                                <div class="info">
-                                    <h2 class="title">Szkoła podstawowa nr 84 we Wrocławiu</h2>
-                                    <p class="desc"><a href="sp84.html"><span class="fa fa-pencil-square-o"></span> Szczegółowy opis</a></p>
-                                    <ul>
-                                        <li style="width:20%;"><span class="fa fa-graduation-cap"></span> 30</li>
-                                        <li style="width:20%;"><span class="fa fa-users"></span> 8</li>
-                                        <li style="width:60%;"><span class="fa fa-cogs"></span>Sphero / Mindstorm / mBot / Scratch</li>
-                                    </ul>
-                                </div>
-                            </li>
-                            
-                            <!-- Cap wks odsłona 2-->
-                            <li>
-                                <time datetime="2015-07-24 0900">
-                                    <span class="day">24</span>
-                                    <span class="month">Lip</span>
-                                    <span class="year">2015</span>
-                                    <span class="time">09:00 AM</span>
-                                </time>
-                                <img alt="miniatura" src="pictures/wks2s.jpg" />
-                                <div class="info">
-                                    <h2 class="title">Workshop Capgemini</h2>
-                                    <p class="desc"><a href="wks2.html"><span class="fa fa-pencil-square-o"></span> Szczegółowy opis</a></p>
-                                    <ul>
-                                        <li style="width:20%;"><span class="fa fa-graduation-cap"></span> 24</li>
-                                        <li style="width:20%;"><span class="fa fa-users"></span> 3</li>
-                                        <li style="width:60%;"><span class="fa fa-cogs"></span> mBot / Arduino</li>
-                                    </ul>
-                                </div>
-                            </li>
-                            
-                            <!-- Cap wks odsłona 1-->
-                            <li>
-                                <time datetime="2015-06-22 0900">
-                                    <span class="day">22</span>
-                                    <span class="month">Cze</span>
-                                    <span class="year">2015</span>
-                                    <span class="time">09:00 AM</span>
-                                </time>
-                                <img alt="miniatura" src="pictures/wks1s.jpg" />
-                                <div class="info">
-                                    <h2 class="title">Workshop Capgemini</h2>
-                                    <p class="desc"><a href="wks1.html"><span class="fa fa-pencil-square-o"></span> Szczegółowy opis</a></p>
-                                    <ul>
-                                        <li style="width:20%;"><span class="fa fa-graduation-cap"></span> 24</li>
-                                        <li style="width:20%;"><span class="fa fa-users"></span> 3</li>
-                                        <li style="width:60%;"><span class="fa fa-cogs"></span> mBot / Arduino</li>
-                                    </ul>
-                                </div>
-                            </li>
-                            
-                            <!-- Roboszpital -->
-                            <li>
-                                <time datetime="2015-05-16 0900">
-                                    <span class="day">16</span>
-                                    <span class="month">Maj</span>
-                                    <span class="year">2015</span>
-                                    <span class="time">09:00 AM</span>
-                                </time>
-                                <img alt="miniatura" src="pictures/hospital_edition.jpg" />
-                                <div class="info">
-                                    <h2 class="title">Szpital przy Borowskiej</h2>
-                                    <p class="desc"><a href="hospital_event.html"><span class="fa fa-pencil-square-o"></span> Szczegółowy opis</a></p>
-                                    <ul>
-                                        <li style="width:20%;"><span class="fa fa-graduation-cap"></span> 11</li>
-                                        <li style="width:20%;"><span class="fa fa-users"></span> 4</li>
-                                        <li style="width:60%;"><span class="fa fa-cogs"></span> Sphero / MindStorm</li>
-                                    </ul>
-                                </div>
-                            </li>
-                            
-                            <!-- Cap intern, 3 warsztaty -->
-                            <li>
-                                <time datetime="2015-03-21 0900">
-                                    <span class="day">21</span>
-                                    <span class="month">Mar</span>
-                                    <span class="year">2015</span>
-                                    <span class="time">09:00 AM</span>
-                                </time>
-                                <img alt="miniatura" src="pictures/third_edition.jpg" />
-                                <div class="info">
-                                    <h2 class="title">Trzecie warsztaty w Capgemini</h2>
-                                    <p class="desc"><a href="third_event.html"><span class="fa fa-pencil-square-o"></span> Szczegółowy opis</a></p>
-                                    <ul>
-                                        <li style="width:20%;"><span class="fa fa-graduation-cap"></span> 20</li>
-                                        <li style="width:20%;"><span class="fa fa-users"></span> 10</li>
-                                        <li style="width:60%;"><span class="fa fa-cogs"></span> Sphero / MindStorm / Makeblock / Scratch / Robo Games</li>
-                                    </ul>
-                                </div>
-                            </li>
-                            
-                            <li>
-                                <time datetime="2015-02-07 0900">
-                                    <span class="day">7</span>
-                                    <span class="month">Lut</span>
-                                    <span class="year">2015</span>
-                                    <span class="time">09:00 AM</span>
-                                </time>
-                                <img alt="miniatura" src="pictures/second_edition.jpg" />
-                                <div class="info">
-                                    <h2 class="title">Drugie warsztaty w Capgemini</h2>
-                                    <p class="desc"><a href="second_event.html"><span class="fa fa-pencil-square-o"></span> Szczegółowy opis</a></p>
-                                    <ul>
-                                        <li style="width:20%;"><span class="fa fa-graduation-cap"></span> 17</li>
-                                        <li style="width:20%;"><span class="fa fa-users"></span> 9</li>
-                                        <li style="width:60%;"><span class="fa fa-cogs"></span> Sphero / MindStorm / Makeblock / Scratch / Robo Games</li>
-                                    </ul>
-                                </div>
-                            </li>
-                             
-                                    
-                            <li>
-                                <time datetime="2014-11-29 0900">
-                                    <span class="day">29</span>
-                                    <span class="month">List</span>
-                                    <span class="year">2014</span>
-                                    <span class="time">09:00 AM</span>
-                                </time>
-                                <img alt="miniatura" src="pictures/first_edition.png" />
-                                <div class="info">
-                                    <h2 class="title">Pierwsze warsztaty w Capgemini</h2>
-                                    <p class="desc"><a href="first_event.html"><span class="fa fa-pencil-square-o"></span> Szczegółowy opis</a></p>
-                                    <ul>
-                                        <li style="width:20%;"><span class="fa fa-graduation-cap"></span> 19</li>
-                                        <li style="width:20%;"><span class="fa fa-users"></span> 11</li>
-                                        <li style="width:60%;"><span class="fa fa-cogs"></span> Sphero / MindStorm / Makeblock / Scratch / Robo Games</li>
-                                    </ul>
-                                </div>
-                            </li>
-
-                        </ul>
-
-                        </div> <!-- end do wszystkie wydarzenia -->
-
+                        <div id="eventsAllDiv" class="collapse">
+                            <br><br>
+                            <ul class="event-list" id="wydarzenia-wszystkie"></ul>
+                        </div>
+                        <!-- end do wszystkie wydarzenia -->
                     </div>
                 </div>
             </div>
