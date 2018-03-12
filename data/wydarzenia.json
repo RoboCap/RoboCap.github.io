@@ -21,6 +21,48 @@
     "technology": "^_^"
   },
   {
+      "datetime": {
+      "full": "2018-03-10 1100",
+      "day": "10",
+      "month": "03",
+      "year": "2018",
+      "time": "11:00"
+    },
+    "image": {
+      "src": "pictures/events/Szczepin20180310_1sm.jpg",
+      "alt": "Serce Szczepina, Wrocław"
+    },
+    "title": "Serce Szczepina, Wrocław",
+    "desc": {
+      "link": "pierwsze szlify w robotyce :)",
+      "text": "Czy cistolina dobrze przewodzi prąd? Co można zrobić z prostego silnika wibracyjnego i baterii 3V? Czy 2 godziny mogą minąć tak szybko? To był fajny dzień i mieliśmy dużo frajdy. Dzieciaki wyniosły nie tylko pierwsze elektroniczne szlify, lecz również naklejki i dyplomy. :D Mamy nadzieję, że to nie ostatnia wspólna impreza w Sercu Szczepina! Więcej zdjęć na stronie https://www.facebook.com/robocappl/posts/1978066899125797"
+    },
+    "graduation": "13",
+    "tutors": "3",
+    "technology": "ciastolina, R9, LED, potencjometr, szczotkowce"
+  },
+  {
+      "datetime": {
+      "full": "2018-03-3 1100",
+      "day": "03",
+      "month": "03",
+      "year": "2018",
+      "time": "11:00"
+    },
+    "image": {
+      "src": "pictures/events/MBP23_20180303.jpg",
+      "alt": "Miejska Bibiioteka Publiczna nr 23 we Wrocławiu"
+    },
+    "title": "Miejska Bibiioteka Publiczna nr 23 we Wrocławiu",
+    "desc": {
+      "link": "programujemy rodziców :)",
+      "text": "Roboty są idealne do rozbrajania bomb, udowodniliśmy to w mbp23 grając na żywo w sapera! Rodzice-roboty wyjątkowo posłusznie słuchały dzieci-programistów :) Niektóre programy były na prawdę skomplikowane! Więcej zdjęć na https://www.facebook.com/robocappl/posts/1974393666159787 "
+    },
+    "graduation": "9",
+    "tutors": "4",
+    "technology": "Dr.Techniko"
+  },
+  {
     "datetime": {
       "full": "2017-05-29 0900",
       "day": "29",
