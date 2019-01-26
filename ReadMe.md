@@ -1,4 +1,4 @@
-Welcome to [Robocap.org](http://robocap.org) website source code.
+Welcome to [Robocap.org](https://robocap.org) website source code.
 -------------------------------------
 
 ### User manual:
@@ -11,6 +11,7 @@ Welcome to [Robocap.org](http://robocap.org) website source code.
 * Template bases on: [DevAid](http://www.bootstrapzero.com/bootstrap-template/devaid)
 * Popups are supported by [Magnific-Popup](https://github.com/dimsemenov/Magnific-Popup/)
 * Dynamic content is rendered on the client side via: [ICanHaz](https://github.com/HenrikJoreteg/ICanHaz.js) that wraps [Mustache templates](http://mustache.github.io)  
+* Powered by [Jekyll](https://jekyllrb.com/) templating engine
 
 License: 
 -------------------------------------
