@@ -1,0 +1,17 @@
+.hide {
+    opacity: 0.5;
+}
+
+.reveal section img.plain {
+  border: 0;
+  box-shadow: none; 
+  background: none; }
+
+.code {
+	font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace !important; 
+	background: rgb(220, 220, 220);
+    text-align: left;
+}
+
+.top { vertical-align: top; }
+.bottom { vertical-align: bottom; }
