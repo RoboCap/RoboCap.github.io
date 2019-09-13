@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>RoboCap micro:bit</title>
+		<title>RoboCap Microbit</title>
 
 		<meta name="description" content="Microbit lessons for teens">
 		<meta name="author" content="Robocap">
@@ -40,87 +40,37 @@
 		<div class="reveal">
 
 			<div class="slides">
-			
-<section data-background="rgb(23, 186, 239)">
-<table>
-    <tr>
-        <td style="vertical-align: bottom"><img class="plain" src="img/logoRobocap.png"/></td>
-        <td>
-        <h1 style="text-shadow: none;">RoboCap</h1>
-            <p style="color:white;">Warsztaty programowania i robotyki</p>
-            <p style="color:white;">
-                <small>Znajdź nas na <a href="http://robocap.pl">robocap.org</a></small>
-            </p>
-        </td>
-    </tr>
-</table>
-</section>
+				<section data-background="rgb(23, 186, 239)">
+				<table>
+				    <tr>
+				        <td style="vertical-align: bottom"><img class="plain" src="img/logoRobocap.png"/></td>
+                        <td>
+                        <h1 style="text-shadow: none;">RoboCap</h1>
+                            <p style="color:white;">Warsztaty programowania i robotyki</p>
+                            <p style="color:white;">
+                                <small>Znajdź nas na <a href="http://robocap.pl">robocap.pl</a></small>
+                            </p>
+                        </td>
+				    </tr>
+				</table>
+				</section>
+				
+				<section style="text-align: left;">
+				    <h1>Malware</h1>
+				    <hr/>
+				    <p>[malłer] oprogramowanie szkodliwe dla urządzeń, systemów, sieci i potencjalnie umożliwiające przejęcie częściowej nad nimi kontroli</p>
+				</section>
 
-<section data-background="rgb(23, 186, 239)">
-    <h2 style="color:white;">Do roboty! :)</h2>
-</section>
+				<section>
+					<h2>No dobrze...</h2>
+					<p>
+						skoro uruchomienie szkodliwego programu może skończyć się katastrofę, to może lepiej go nie uruchamiać?
+					</p>
+				</section>
 
-<section>
-    <h2>Wejście</h2>
-    <table>
-        <tr>
-           <td>
-               <p>Do dyspozycji mamy obiekty <span class="code">pin0</span>, 
-               <span class="code">pin1</span> i <span class="code">pin2</span></p>
-               <pre><code data-trim data-noescape contenteditable>
-while True:
-    if pin0.is_touched():
-        display.show(Image.HAPPY)
-    else:
-        display.show(Image.SAD)
-	           </code></pre>
-           </td>
-           <td style="vertical-align: bottom">
-               <img src="img/pin0-gnd.png" class="plain"/>
-           </td>
-            
-        </tr>
-    </table>
-</section> 
-
-<section>
-    <h1>Jak działa głośnik?</h1>
-</section>
-
-<section>
-    <h2>Zagrajmy coś</h2>
-    <table>
-       <tr>
-           <td style="vertical-align: bottom">
-                <img src="img/connect_speaker.jpg" alt="">
-           </td>
-           <td>
-                <h4>Quest</h4>
-                <p><b>Cel:</b> Zagraj muzykę</p>
-                <p><b>Środek:</b> <a href="https://microbit-micropython.readthedocs.io/pl/latest/tutorials/music.html">Link</a></p>
-                <p><b>Czas:</b> ~10 minut</p>
-           </td>
-       </tr>
-    </table>
-</section>
-
-<section>
-    <h2>Akcelerometr</h2>
-    <pre><code data-trim data-noescape contenteditable>
-while True:
-    reading = accelerometer.get_x() 
-    if reading &gt; 20:
-        display.show("R")
-    elif reading &lt; -20:
-        display.show("L")
-    else:
-        display.show("-")
-   </code></pre>
-</section>
-
-<section>
-    <h1>Pytania?</h1>
-</section>
+				<section>
+					<h1>Pytania?</h1>
+				</section>
 
 			</div>
 
