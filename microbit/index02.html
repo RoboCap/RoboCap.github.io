@@ -61,6 +61,73 @@
 </section>
 
 <section>
+    <h2>Pętla nieskończona</h2>
+    <ul>
+        <li>Bez końca wykonujemy polecenia w pętli</li>
+        <li>Program działa za szybko? Spowolnij go za pomocą komendy <span class="code">sleep(1000)</span>. To w nawiasie to czas w milisekundach.</li>
+        <li>Pamiętaj o tabulacji!</li>
+    </ul>
+        <pre><code data-trim data-noescape contenteditable>
+from microbit import *
+while True:
+    display.show('1')
+    display.show('2')
+    display.show('3')
+	</code></pre>
+</section>
+
+<section>
+    <h2>Instrukcja warunkowa</h2>
+    <ul>
+        <li>Pozwala wykonać instrukcję w zależoności od tego, czy wyrażenie jest prawdziwe</li>
+        <li>Spróbuj zgadnąć, jak działa poniższy kod</li>
+        <li>Pamiętaj o tabulacji!</li>
+    </ul>
+        <pre><code data-trim data-noescape contenteditable>
+from microbit import *
+
+a = 0
+if a == 0:
+    display.scroll("a jest równe zero")
+else:
+    display.scroll("a nie jest równe zero")
+	</code></pre>
+</section>
+
+<section>
+    <h2>Generator liczb losowych</h2>
+    <ul>
+        <li>Istotna rzecz, jeżeli chcesz tworzyć własne gry :)</li>
+    </ul>
+        <pre><code data-trim data-noescape contenteditable>
+from microbit import *
+import random
+
+a = random.randint(0, 1)
+if a == 0:
+    display.scroll("a jest równe zero")
+else:
+    display.scroll("a nie jest równe zero")
+	</code></pre>
+</section>
+
+<section>
+    <h2>Przyciski</h2>
+    <ul>
+        <li>Mamy do dyspozycji dwa obiekty: <span class="code">button_a</span> i <span class="code">button_b</span></li>
+        <li>Metoda <span class="code">is_pressed()</span> mówi, czy przycisk jest wciśnięty (<span class="code">True</span>) czy nie (<span class="code">False</span>)</li>
+        <li>Nie zapomnij o imporcie :)</li>
+    </ul>
+        <pre><code data-trim data-noescape contenteditable>
+while True:
+    if button_a.is_pressed():
+        display.show('a')
+    else:
+        display.clear()
+	</code></pre>
+</section>
+
+<section>
     <h2>Wejście</h2>
     <table>
         <tr>
